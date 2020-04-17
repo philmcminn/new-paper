@@ -1,4 +1,6 @@
-\documentclass[12pt]{article}
+\input{details}
+
+\input{styles/plain/plain}
 
 \input{packages}
 \input{commands}
@@ -7,18 +9,18 @@
 
 \begin{document}
 
-% The \papertitle command lives in commands.tex
+% The \papertitle command lives in details.tex
 % It is useful to have it defined as a command so that
 % it can be referenced in other documents,
 % e.g. a referee response letter
 \title{\papertitle}
 
-% Author information goes here...
+% The \paperauthors command lives in details.tex
 % A publisher's template may have different
 % commands for adding the authors to a paper
-\author{}
+\author{\paperauthors}
 
-% Usually this is not needed
+% This is usually not needed:
 \date{}
 
 \maketitle
@@ -27,14 +29,23 @@
 % These are some typical ones.
 % Add more if you need them.
 \input{sections/abstract}
+\input{sections/introduction}
 \input{sections/background}
 \input{sections/approach}
 \input{sections/evaluation}
+\input{sections/results}
 \input{sections/related-work}
-\input{sections/conclusions}
+\input{sections/conclusions-and-future-work}
 
-% The bibliography
-% \bibliographystyle{}
-% \bibliography{}
+% The \paperbibliographystyle command is defined
+% by the paper's style file ... see the file
+% referenced by the \input{styles/...}
+% declaration at the top of this file
+\bibliographystyle{\paperbibliographystyle}
+
+% The bibliography should be a Git subproject
+% imported into this repository
+%
+% \bibliography{...}
 
 \end{document}
