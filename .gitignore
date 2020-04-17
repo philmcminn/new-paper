@@ -1,0 +1,23 @@
+# BUILD FILES
+paper.pdf
+
+# FILESYSTEM
+.DS_Store
+.vscode
+
+# LATEX
+*.aux
+*.fdb_latex
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# BIBTEX
+*.bbl
+*.bib
+*.blg

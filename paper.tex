@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+
+\input{packages}
+\input{commands}
+\input{constants}
+\input{spellings}
+
+\begin{document}
+
+% The \papertitle command lives in commands.tex
+% It is useful to have it defined as a command so that
+% it can be referenced in other documents,
+% e.g. a referee response letter
+\title{\papertitle}
+
+% Author information goes here...
+% A publisher's template may have different
+% commands for adding the authors to a paper
+\author{}
+
+% Usually this is not needed
+\date{}
+
+\maketitle
+
+% Sections of the document. 
+% These are some typical ones.
+% Add more if you need them.
+\input{sections/abstract}
+\input{sections/background}
+\input{sections/approach}
+\input{sections/evaluation}
+\input{sections/related-work}
+\input{sections/conclusions}
+
+% The bibliography
+% \bibliographystyle{}
+% \bibliography{}
+
+\end{document}

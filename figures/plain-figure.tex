@@ -1,0 +1,30 @@
+% You can copy this file for every new figure.
+%
+% Figures should be placed at the top of pages/columns
+% where they can.
+%
+% This can be ensured by using the [t] parameter to the
+% "\begin{figure}" declaration.
+%
+\begin{figure}[t]
+    % Figures should be centered in the page/column
+    \centering
+
+    % Figure content goes here.
+    A figure.
+
+    \caption{
+        % The label should appear _inside_ the caption to ensure
+        % Latex numbers it correctly. This is a common gotcha!
+        %
+        % All figure labels should start with "fig:"
+        % So that the figure file can be found easily, the rest of the
+        % figure label should be the same as the filename, as it is
+        % in this example:
+        %
+        \label{fig:plain-figure}
+        %
+        Add your caption here. Captions for figures go {\em below}
+        the figure.
+    }
+\end{figure}
