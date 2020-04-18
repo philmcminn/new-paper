@@ -7,7 +7,7 @@
 \begin{table}[t]
     % Figures should be centered in the page/column
     \centering
-
+    %
     \caption{
         % The label should appear _inside_ the caption to ensure
         % Latex numbers it correctly. This is a common gotcha!
@@ -22,10 +22,14 @@
         Add your caption here. Captions for tables go {\em above}
         the table.
     }
-
-    % Sometimes a gap is required between the caption and the table:
-    ~\\
-    
+    %
+    % Depending on the template, some breathing space might need to
+    % be added (use \smallskip \medskip etc.) here
+    %
+    % Or, to save space, you might want to remove space
+    % (use a negative \vspace, e.g. \vspace{-1em})
+    %
+    %
     % Table content goes here. Use this file to specify the
     % table's column headings. The data should be automatically
     % output from a program processing the raw experimental data
@@ -36,21 +40,25 @@
     % Do not use vertical rules. Ensure you use \toprule, \midrule
     % and \bottomrule from the "booktabs" package effectively.
     %
-    % Figures should be right justified, text left justified.
+    % Numbers should be right justified (use "r"), 
+    % text left justified (use "l").
     %
     % For example:
-    
+    %
     \begin{tabular}{lr}
         \toprule
             % use a new line for each column if needed
             {\bf Subject Name}  &
-            {\bf Lines of Code}
+            {\bf Score}
             \\
 
         \midrule
 
-        \input{table-data/subjects}
+        \input{table-data/results}
 
         \bottomrule
     \end{tabular}
+    %
+    % To save space, you might want to remove space here
+    % (use a negative \vspace, e.g. \vspace{-1em})
 \end{table}
