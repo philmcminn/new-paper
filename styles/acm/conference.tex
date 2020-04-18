@@ -1,0 +1,39 @@
+% Define document class and default bibliography style
+\documentclass[sigconf]{acmart}
+\newcommand{\paperbibliographystyle}{ACM-Reference-Format}
+
+% Pre-abstract formatting
+\newcommand{\preabstract}{
+    \title{\papertitle}
+
+    % author block
+    \ifcsname doubleblind\endcsname
+        \author{\doubleblind}
+    \else
+        \ifcsname firstauthor\endcsname
+            \author{\firstauthor}
+            \affiliation{\institution{\firstauthoraffiliation}}
+        \fi
+        \ifcsname collaboratorone\endcsname
+            \author{\collaboratorone}
+            \affiliation{\institution{\collaboratoroneaffiliation}}
+        \fi
+        \ifcsname collaboratortwo\endcsname
+            \author{\collaboratortwo}
+            \affiliation{\institution{\collaboratortwoaffiliation}}
+        \fi
+        \ifcsname collaboratorthree\endcsname
+            \author{\collaboratorthree}
+            \affiliation{\institution{\collaboratorthreeaffiliation}}
+        \fi
+        \ifcsname lastauthor\endcsname
+            \author{\lastauthor}
+            \affiliation{\institution{\lastauthoraffiliation}}
+        \fi
+    \fi
+}
+
+% Post-abstract formatting
+\newcommand{\postabstract}{
+    \maketitle
+}

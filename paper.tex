@@ -1,6 +1,13 @@
+% Define paper title, authors etc.
 \input{details}
 
-\input{styles/plain/plain}
+% Set the style of the paper. 
+% Different styles are possible, ensure only one is selected:
+%
+\input{styles/acm/conference}
+% \input{styles/ieee/conference}
+% \input{styles/plain/plain}
+% \input{styles/plain/plain-no-date}
 
 \input{packages}
 \input{commands}
@@ -9,26 +16,24 @@
 
 \begin{document}
 
-% The \papertitle command lives in details.tex
-% It is useful to have it defined as a command so that
-% it can be referenced in other documents,
-% e.g. a referee response letter
-\title{\papertitle}
+% Perform pre-abstract formatting, as dictated by
+% the style
+\preabstract
 
-% The \paperauthors command lives in details.tex
-% A publisher's template may have different
-% commands for adding the authors to a paper
-\author{\paperauthors}
+% NOTE: file names should always be lower-cased.
+% This helps for cross-OS compatibility.
+% Separate words with hyphens.
+% In other words, use "kebab-case":
+% https://wiki.c2.com/?KebabCase
+\input{sections/abstract}
 
-% This is usually not needed:
-\date{}
-
-\maketitle
+% Perform post-abstract formatting, as dictated by
+% the style
+\postabstract
 
 % Sections of the document. 
 % These are some typical ones.
 % Add more if you need them.
-\input{sections/abstract}
 \input{sections/introduction}
 \input{sections/background}
 \input{sections/approach}

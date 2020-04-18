@@ -1,2 +1,40 @@
+% Define document class and default bibliography style
 \documentclass[12pt]{article}
 \newcommand{\paperbibliographystyle}{plain}
+
+% Pre-abstract formatting
+\newcommand{\preabstract}{
+    \title{\papertitle}
+
+    % author block
+    \author{
+        \ifcsname doubleblind\endcsname
+            \doubleblind
+        \else
+            \ifcsname firstauthor\endcsname
+                \firstauthor \\ \firstauthoraffiliation \and
+            \fi
+            \ifcsname collaboratortwo\endcsname
+                \collaboratortwo \\ \collaboratortwoaffiliation \and
+            \fi
+            \ifcsname collaboratortwo\endcsname
+                \collaboratorone \\ \collaboratoroneaffiliation \and
+            \fi
+            \ifcsname collaboratorthree\endcsname
+                \collaboratorthree \\ \collaboratorthreeaffiliation \and
+            \fi
+            \lastauthor \\ \lastauthoraffiliation
+        \fi
+    }
+
+    % Write out the date?
+    \ifcsname writedate\endcsname%
+        \date{}
+    \fi%
+
+    \maketitle
+}
+
+% Post-abstract formatting
+\newcommand{\postabstract}{
+}
