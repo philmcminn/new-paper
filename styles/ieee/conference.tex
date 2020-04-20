@@ -11,28 +11,28 @@
         \ifcsname doubleblind\endcsname
             \IEEEauthorblockN{\doubleblind}
         \else
-            \ifcsname firstauthor\endcsname
-                \IEEEauthorblockN{\firstauthor}
-                \IEEEauthorblockA{\institution{\firstauthoraffiliation}}
-                \and
-            \fi
+            \IEEEauthorblockN{\firstauthor}
+            \IEEEauthorblockA{\firstauthoraffiliation}
             \ifcsname collaboratorone\endcsname
-                \IEEEauthorblockN{\collaboratorone}
-                \IEEEauthorblockA{\institution{\collaboratoroneaffiliation}}
                 \and
+                \IEEEauthorblockN{\collaboratorone}
+                \IEEEauthorblockA{\collaboratoroneaffiliation}
             \fi
             \ifcsname collaboratortwo\endcsname
-                \IEEEauthorblockN{\collaboratortwo}
-                \IEEEauthorblockA{\institution{\collaboratortwoaffiliation}}
                 \and
+                \IEEEauthorblockN{\collaboratortwo}
+                \IEEEauthorblockA{\collaboratortwoaffiliation}
             \fi
             \ifcsname collaboratorthree\endcsname
-                \IEEEauthorblockN{\collaboratorthree}
-                \IEEEauthorblockA{\institution{\collaboratorthreeaffiliation}}
                 \and
+                \IEEEauthorblockN{\collaboratorthree}
+                \IEEEauthorblockA{\collaboratorthreeaffiliation}
             \fi
-            \IEEEauthorblockN{\lastauthor}
-            \IEEEauthorblockA{\institution{\lastauthoraffiliation}}
+            \ifcsname lastauthor\endcsname
+                \and
+                \IEEEauthorblockN{\lastauthor}
+                \IEEEauthorblockA{\lastauthoraffiliation}
+            \fi
         \fi
     }
     \maketitle
