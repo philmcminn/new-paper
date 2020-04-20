@@ -16,24 +16,23 @@
 
 \begin{document}
 
-% Perform pre-abstract formatting, as dictated by
-% the style
+% Include the abstract and perform formatting 
+% tasks as dictated by the style
+%
 \preabstract
+\input{sections/abstract}
+\postabstract
 
+% Sections of the document. 
+% These are some typical ones.
+% Add and remove these as needed.
+%
 % NOTE: file names should always be lower-cased.
 % This helps for cross-OS compatibility.
 % Separate words with hyphens.
 % In other words, use "kebab-case":
 % https://wiki.c2.com/?KebabCase
-\input{sections/abstract}
-
-% Perform post-abstract formatting, as dictated by
-% the style
-\postabstract
-
-% Sections of the document. 
-% These are some typical ones.
-% Add more if you need them.
+%
 \input{sections/introduction}
 \input{sections/background}
 \input{sections/approach}
@@ -46,11 +45,12 @@
 % by the paper's style file ... see the file
 % referenced by the \input{styles/...}
 % declaration at the top of this file
+%
 \bibliographystyle{\paperbibliographystyle}
 
 % The bibliography should be a Git subproject
 % imported into this repository
 %
-% \bibliography{...}
+% \bibliography{bibtex/bibliography}
 
 \end{document}
