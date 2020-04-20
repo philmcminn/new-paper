@@ -1,14 +1,15 @@
 % Define document class and default bibliography style
+% Set the document format and layout
 \documentclass[12pt]{article}
 \usepackage[margin=3cm]{geometry}
 
-\newcommand{\paperbibliographystyle}{plain}
-
 % Pre-abstract formatting
 \newcommand{\preabstract}{
+
+    % Set the title
     \title{\papertitle}
 
-    % author block
+    % Define the author block
     \author{
         \ifcsname doubleblind\endcsname
             \doubleblind
@@ -30,11 +31,15 @@
     }
 
     % Write out the date?
-    \ifcsname writedate\endcsname%
+    \ifcsname writedate\endcsname
         \date{}
-    \fi%
+    \fi
 
+    % Format the title
     \maketitle
+
+    % Set the bibliography style
+    \bibliographystyle{plain}
 }
 
 % Post-abstract formatting

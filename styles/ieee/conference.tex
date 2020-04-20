@@ -1,12 +1,13 @@
-% Define document class and default bibliography style
+% Define document class
 \documentclass[conference]{IEEEtran}
-\newcommand{\paperbibliographystyle}{plain}
 
 % Pre-abstract formatting
 \newcommand{\preabstract}{
+
+    % Set the title
     \title{\papertitle}
     
-    % author block
+    % Define the author block
     \author{
         \ifcsname doubleblind\endcsname
             \IEEEauthorblockN{\doubleblind}
@@ -35,7 +36,12 @@
             \fi
         \fi
     }
+    
+    % Format the title
     \maketitle
+
+    % Set the bibliography style
+    \bibliographystyle{plain}
 }
 
 % Post-abstract formatting

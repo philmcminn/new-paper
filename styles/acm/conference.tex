@@ -1,12 +1,13 @@
-% Define document class and default bibliography style
-\documentclass[sigconf]{acmart}
-\newcommand{\paperbibliographystyle}{ACM-Reference-Format}
+% Define document class
+\documentclass[sigconf]{acmart}}
 
 % Pre-abstract formatting
 \newcommand{\preabstract}{
+
+    % Set the title
     \title{\papertitle}
 
-    % author block
+    % Define the author block
     \ifcsname doubleblind\endcsname
         \author{\doubleblind}
     \else
@@ -31,9 +32,14 @@
             \affiliation{\institution{\lastauthoraffiliation}}
         \fi
     \fi
+
+    % Set the bibliography style
+    \bibliographystyle{ACM-Reference-Format}
 }
 
 % Post-abstract formatting
 \newcommand{\postabstract}{
+
+    % Title is formatted after the abstract for this style
     \maketitle
 }
