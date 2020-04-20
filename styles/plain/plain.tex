@@ -13,19 +13,19 @@
         \ifcsname doubleblind\endcsname
             \doubleblind
         \else
-            \ifcsname firstauthor\endcsname
-                \firstauthor \\ \firstauthoraffiliation \and
+            \firstauthor \\ \firstauthoraffiliation 
+            \ifcsname collaboratortwo\endcsname
+                \and \collaboratortwo \\ \collaboratortwoaffiliation
             \fi
             \ifcsname collaboratortwo\endcsname
-                \collaboratortwo \\ \collaboratortwoaffiliation \and
-            \fi
-            \ifcsname collaboratortwo\endcsname
-                \collaboratorone \\ \collaboratoroneaffiliation \and
+                \and \collaboratorone \\ \collaboratoroneaffiliation
             \fi
             \ifcsname collaboratorthree\endcsname
-                \collaboratorthree \\ \collaboratorthreeaffiliation \and
+                \and \collaboratorthree \\ \collaboratorthreeaffiliation 
             \fi
-            \lastauthor \\ \lastauthoraffiliation
+            \ifcsname lastauthor\endcsname
+                \and \lastauthor \\ \lastauthoraffiliation
+            \fi
         \fi
     }
 
