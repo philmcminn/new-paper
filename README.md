@@ -25,8 +25,8 @@ formatted in "kebab-case" (i.e., all lower case with hyphens as word separators)
 
 ## File and Directory Naming
 
-Over time, you will be adding your own files and content to your paper The
-various files and examples in this repository show you how to go about doing
+Over time, you will be adding your own files and content to your paper. The
+various files and examples in this repository demonstrate how to go about doing
 that.
 
 Please ensure you stick to the coding standards described in the comments of the
