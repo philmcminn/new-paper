@@ -63,6 +63,9 @@ find that they are contradictory to advice given elsewhere.
 
 For example, this repository chooses to structure papers by splitting its
 content across several files. This is because I prefer to structure papers in a
-modular fashion, much like a computer program. It is not hard to find things
-using text search in a good text editor, so long as you include all the relevant
+modular fashion, much like a computer program. A common objection to doing it
+this way is that it makes it harder to find specific text later. But, if you
+structure your files in the way this repository suggests, finding things should
+not be difficult, and you get really stuck, then it is not hard to use the
+"Find" feature of a good text editor, so long as you include all the relevant
 files in the scope of the search.
