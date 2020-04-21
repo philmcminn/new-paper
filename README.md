@@ -1,4 +1,4 @@
-# About The "new-paper" Repository
+# The "New Paper" Repository
 
 This repository is designed to be forked by PhD students when they want to start
 writing a new research paper for a conference, journal, or an internal report.
