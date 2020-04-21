@@ -9,7 +9,7 @@ material, and customise your paper with additional macros.
 Each section provides advice as to how to go about writing it. This advice can
 be deleted or comment out to make way for your own content.
 
-## Forking the Repository
+## Creating a Repository for Your Own Paper by Forking This One
 
 In the top-right hand corner of the GitHub page for the repository, there should
 be a button named "Fork". Click this to fork the repository into your own space.
