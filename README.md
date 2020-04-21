@@ -49,8 +49,10 @@ The comments of this paper offer a number of tips on how to write good
 LaTeX. There is a lot of other good advice on the web, too. See, for example,
 the following links:
 
-* [Diomidis Spinellis's Advice for writing LaTeX documents](https://github.com/dspinellis/latex-advice)
-* [John Regehr's Small Collection of LaTeX Tips](https://john.regehr.org/latex/)
+* [Advice for Writing LaTeX Documents](https://github.com/dspinellis/latex-advice),
+  by Diomidis Spinellis
+* [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/),
+  by John Regehr
 
 Bear in mind that some of the advice given is subjective. You should follow the
 guidelines specified by this repository if it contradicts what you read
