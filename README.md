@@ -7,7 +7,7 @@ It provides a skeleton set of files and folders in which you can write your own
 material, and customise your paper with additional macros.
 
 Each section provides advice as to how to go about writing it. This advice can
-be deleted or comment out to make way for your own content.
+be deleted or commented out to make way for your own content.
 
 ## Creating a Repository for Your Own Paper by Forking This One
 
