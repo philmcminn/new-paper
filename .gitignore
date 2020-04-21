@@ -14,8 +14,10 @@ paper.pdf
 *.log
 *.lot
 *.out
+*.synctex(busy)
 *.synctex.gz
 *.toc
+
 
 # BIBTEX
 *.bbl
