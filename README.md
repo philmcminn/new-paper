@@ -58,8 +58,8 @@ the following links:
 Bear in mind that sometimes the advice given is subjective, and hence
 contradictory.
 
-Always follow the guidelines specified by this repository if in doubt, or if
-there is a conflict.
+Always follow the guidelines specified by this repository if there is a
+conflict.
 
 For example, this repository chooses to structure papers by splitting its
 content across several files. This is because I think it is better to structure
