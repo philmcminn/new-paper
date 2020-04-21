@@ -44,11 +44,12 @@ lower-cased, with words separated with hyphens. Using lower-casing and not using
 spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
 
-## Further LaTeX Tips
+## Using This Repository in Conjunction with Other Latex Advice on the Web
 
-The comments of this paper offer a number of tips on how to write good
-LaTeX. There is a lot of other good advice on the web, too. See, for example,
-the following links:
+The comments of this paper offer a number of tips on how to write good LaTeX.
+
+There is a lot of other good advice on the web, that you should check out too.
+See, the following links, for example:
 
 * [Advice for Writing LaTeX Documents](https://github.com/dspinellis/latex-advice),
   by Diomidis Spinellis.
