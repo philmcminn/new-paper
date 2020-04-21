@@ -42,3 +42,22 @@ In particular, the repository opts to use
 All files following the kebab-case convention are lower-cased, with words
 separated with hyphens. Using lower-casing and not using spaces in file and
 directory names ensures good cross-platform compatibility.
+
+## Further LaTeX Tips
+
+The comments of this paper offer a number of tips on how to write good
+LaTeX. There is a lot of other good advice on the web, too. See, for example,
+the following links:
+
+* [Diomidis Spinellis's Advice for writing LaTeX documents]
+  (https://github.com/dspinellis/latex-advice)
+* [John Regehr's Small Collection of LaTeX Tips]
+  (https://john.regehr.org/latex/)
+
+Bear in mind that some of the advice given is subjective. You should follow the
+guidelines specified by this repository if it contradicts what you read
+elsewhere. For example, this repository chooses to structure papers by splitting
+its content across several files. This is because I prefer to structure papers
+in a modular fashion, much like a computer program. It is not hard to find
+things using text search in a good text editor, so long as you include all the
+relevant files in the scope of the search.
