@@ -41,7 +41,7 @@ In particular, the repository opts to use
 "[kebab-case](https://wiki.c2.com/?KebabCase)" for naming files and directories.
 All file and directory names following the kebab-case convention are
 lower-cased, with words separated with hyphens. Using lower-casing and not using
-spaces (by using hyphens instead) in file and directory names ensures good
+spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
 
 ## Further LaTeX Tips
