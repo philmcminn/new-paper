@@ -66,6 +66,7 @@ content across several files. This is because I think it is better to structure
 LaTeX documents in a modular fashion, much like a computer program. A common
 objection to doing it this way is that it makes it harder to find specific text
 later. But, if you structure your files in the way this repository suggests,
-finding things should not be difficult. If you get really stuck, then it is not
-hard to use the "Find" feature of a good text editor, so long as you include all
-the relevant files in the scope of the search.
+finding things again should not be difficult --- in fact, it should be very
+easy. (Also, if you get really stuck, then it is not hard to use the "Find"
+feature of a good text editor, so long as you include all the relevant files in
+the scope of the search.)
