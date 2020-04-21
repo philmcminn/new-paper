@@ -57,9 +57,10 @@ the following links:
 Bear in mind that sometimes the advice given is subjective, and hence
 contradictory.
 
-You should follow the guidelines specified by this repository if it contradicts
-what you read elsewhere. For example, this repository chooses to structure
-papers by splitting its content across several files. This is because I prefer
-to structure papers in a modular fashion, much like a computer program. It is
-not hard to find things using text search in a good text editor, so long as you
-include all the relevant files in the scope of the search.
+You should follow the guidelines specified by this repository over others if you
+find that they are contradictory to advice given elsewhere. For example, this
+repository chooses to structure papers by splitting its content across several
+files. This is because I prefer to structure papers in a modular fashion, much
+like a computer program. It is not hard to find things using text search in a
+good text editor, so long as you include all the relevant files in the scope of
+the search.
