@@ -50,9 +50,9 @@ LaTeX. There is a lot of other good advice on the web, too. See, for example,
 the following links:
 
 * [Advice for Writing LaTeX Documents](https://github.com/dspinellis/latex-advice),
-  by Diomidis Spinellis
+  by Diomidis Spinellis.
 * [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/),
-  by John Regehr
+  by John Regehr.
 
 Bear in mind that sometimes the advice given is subjective, and hence
 contradictory.
