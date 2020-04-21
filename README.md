@@ -1,4 +1,4 @@
-# The "New Paper" Repository
+# LaTeX Repository for Writing New Papers
 
 This repository is designed to be forked by PhD students when they want to start
 writing a new research paper for a conference, journal, or an internal report.
@@ -49,10 +49,8 @@ The comments of this paper offer a number of tips on how to write good
 LaTeX. There is a lot of other good advice on the web, too. See, for example,
 the following links:
 
-* [Diomidis Spinellis's Advice for writing LaTeX documents]
-  (https://github.com/dspinellis/latex-advice)
-* [John Regehr's Small Collection of LaTeX Tips]
-  (https://john.regehr.org/latex/)
+* [Diomidis Spinellis's Advice for writing LaTeX documents](https://github.com/dspinellis/latex-advice)
+* [John Regehr's Small Collection of LaTeX Tips](https://john.regehr.org/latex/)
 
 Bear in mind that some of the advice given is subjective. You should follow the
 guidelines specified by this repository if it contradicts what you read
