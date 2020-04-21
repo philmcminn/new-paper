@@ -20,7 +20,7 @@ indicative of the *research content*, rather than the conference venue or
 journal you intend to submit to. For example, "search-based-testability" is a
 better name than "icse2020".
 
-For the same reasons [detailed next](file-and-directory-naming), choose a name
+For the same reasons as [detailed next](#file-and-directory-naming), choose a name
 formatted in "kebab-case" (i.e., all lower case with hyphens as word separators).
 
 ## File and Directory Naming
