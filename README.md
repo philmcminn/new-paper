@@ -70,6 +70,6 @@ when you start to work on your PhD thesis.
 A common objection to doing it this way is that it makes it harder to find
 specific text later. But, if you structure your files in the way this repository
 suggests, finding things again should not be difficult – in fact, it should be
-very easy. (Also, if you get really stuck, then it is not hard to use the "Find"
-feature of a good text editor, so long as you include all the relevant files in
-the scope of the search.)
+very easy. Furthermore, if you get really stuck, then it is not hard to use the
+"Find" feature of a good text editor, so long as you include all the relevant
+files in the scope of the search.
