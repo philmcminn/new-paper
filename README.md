@@ -16,9 +16,9 @@ be a button named "Fork". Click this to fork the repository into your own space.
 
 The new repository will still be called "new-paper", which you will want to
 change. To do this, go the "Settings" tab and rename it. Choose a name that is
-indicative of the *research content*, rather than the conference venue or
-journal you intend to submit to. For example, "search-based-testability" is a
-better name than "icse2020".
+indicative of the paper's *research content*, rather than the conference venue
+or journal you intend to submit it to. For example, "search-based-testability"
+is a better name than "icse2020".
 
 For the same reasons as [detailed next](#file-and-directory-naming), choose a name
 formatted in "kebab-case" (i.e., all lower case with hyphens as word separators).
