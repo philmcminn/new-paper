@@ -1,0 +1,49 @@
+% Define document class
+\documentclass[conference]{IEEEtran}
+
+% Pre-abstract formatting
+\newcommand{\preabstract}{
+
+    % Set the title
+    \title{\papertitle}
+    
+    % Define the author block
+    \author{
+        \ifcsname doubleblind\endcsname
+            \IEEEauthorblockN{\doubleblind}
+        \else
+            \IEEEauthorblockN{\firstauthor}
+            \IEEEauthorblockA{\firstauthoraffiliation}
+            \ifcsname collaboratorone\endcsname
+                \and
+                \IEEEauthorblockN{\collaboratorone}
+                \IEEEauthorblockA{\collaboratoroneaffiliation}
+            \fi
+            \ifcsname collaboratortwo\endcsname
+                \and
+                \IEEEauthorblockN{\collaboratortwo}
+                \IEEEauthorblockA{\collaboratortwoaffiliation}
+            \fi
+            \ifcsname collaboratorthree\endcsname
+                \and
+                \IEEEauthorblockN{\collaboratorthree}
+                \IEEEauthorblockA{\collaboratorthreeaffiliation}
+            \fi
+            \ifcsname lastauthor\endcsname
+                \and
+                \IEEEauthorblockN{\lastauthor}
+                \IEEEauthorblockA{\lastauthoraffiliation}
+            \fi
+        \fi
+    }
+    
+    % Format the title
+    \maketitle
+
+    % Set the bibliography style
+    \bibliographystyle{plain}
+}
+
+% Post-abstract formatting
+\newcommand{\postabstract}{
+}

@@ -1,14 +1,18 @@
 % Define paper title, authors etc.
+%
 \input{details}
 
-% Set the style of the paper. 
-% Different styles are possible, ensure only one is selected:
+% Set the format of the paper. 
+% Different formats are possible, ensure only one is selected:
 %
-\input{styles/acm/conference}
-% \input{styles/ieee/conference}
-% \input{styles/plain/plain}
-% \input{styles/plain/plain-no-date}
+% \input{formats/acm/conference}
+% \input{formats/ieee/conference}
+\input{formats/plain/plain}
+% \input{formats/plain/plain-no-date}
 
+% Include packages and key macros
+% Add to contents of these files as required by your paper
+%
 \input{packages}
 \input{commands}
 \input{constants}
@@ -16,24 +20,23 @@
 
 \begin{document}
 
-% Perform pre-abstract formatting, as dictated by
-% the style
+% Include the abstract and perform formatting 
+% tasks as dictated by the style
+%
 \preabstract
+\input{sections/abstract}
+\postabstract
 
+% Sections of the document. 
+% These are some typical ones.
+% Add and remove these as needed.
+%
 % NOTE: file names should always be lower-cased.
 % This helps for cross-OS compatibility.
 % Separate words with hyphens.
 % In other words, use "kebab-case":
 % https://wiki.c2.com/?KebabCase
-\input{sections/abstract}
-
-% Perform post-abstract formatting, as dictated by
-% the style
-\postabstract
-
-% Sections of the document. 
-% These are some typical ones.
-% Add more if you need them.
+%
 \input{sections/introduction}
 \input{sections/background}
 \input{sections/approach}
@@ -42,15 +45,13 @@
 \input{sections/related-work}
 \input{sections/conclusions-and-future-work}
 
-% The \paperbibliographystyle command is defined
-% by the paper's style file ... see the file
-% referenced by the \input{styles/...}
-% declaration at the top of this file
-\bibliographystyle{\paperbibliographystyle}
 
-% The bibliography should be a Git subproject
-% imported into this repository
+% The paper's bibliography style is set by the 
+% paper format.
 %
-% \bibliography{...}
+% The bibliography itself should be a Git subproject
+% imported into this repository.
+%
+% \bibliography{bibtex/bibliography}
 
 \end{document}
