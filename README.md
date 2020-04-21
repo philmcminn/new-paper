@@ -31,7 +31,7 @@ that.
 
 Please ensure you stick to the coding standards described in the comments of the
 paper. This helps ensure everything is consistent, that other people working
-with you (me, and and other collaborators) can find things easily (such as a
+with you (i.e., me, and possibly other collaborators) can find things easily (such as a
 figure file referenced using a certain label in a section file), and in general
 helps uphold the [Principle of Least
 Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
