@@ -34,7 +34,7 @@ paper. This helps ensure everything is consistent, that other people working
 with you (me, and and other collaborators) can find things easily (such as a
 figure file referenced using a certain label in a section file), and in general
 helps uphold the [Principle of Least
-Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) 
+Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 for others when working on the paper.
 
 In particular, the repository opts to use
