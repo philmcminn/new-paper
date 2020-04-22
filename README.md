@@ -55,7 +55,8 @@ of your paper.
 If the build of your paper needs to generate tables or figures from your raw
 data, consider including it in the paper repository as a separate
 [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
-instead.
+instead. A Git submodule is just a way of using some other Git repository in
+another, but where the two repositories can still be maintained independently.
 
 ## Using This Repository in Conjunction with Other Latex Advice on the Web
 
