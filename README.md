@@ -75,3 +75,15 @@ suggests, finding things again should not be difficult – in fact, it should be
 very easy. Furthermore, if you get really stuck, then it is not hard to use the
 "Find" feature of a good text editor, so long as you include all the relevant
 files in the scope of the search.
+
+## Experimental Materials
+
+You should use a separate Git repository for all of your experimental data
+and materials. That is, keep your paper repository for LaTeX files only,
+or graphics/TikZ files etc. that are directly involved in the production
+of your paper.
+
+If the build of your paper needs to generate tables or figures from your raw
+data, consider including it in the paper repository as a separate
+[Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+instead.
