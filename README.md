@@ -35,12 +35,13 @@ a number over the years. Currently, I use [Visual Studio
 Code](https://code.visualstudio.com/) (VS Code for short), which is free and
 open source, with the [LaTeX
 workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-plugin, which among other things, automatically builds my PDF every time I make
-a change, and displays it in a pane of the editor so that I can see it while I
-am working on it. Others prefer more "traditional" solutions such as Vim or
+plugin. Among other things this plugin automatically builds my PDF every time I
+make a change to a `.tex` source file. With VS Code, I can display the PDF in an
+editor tab so that I can see it while I am working on it, and have it update
+while I edit it. Others prefer more "traditional" solutions such as Vim or
 Emacs, but you can use whatever you prefer, and so long as you do not [add any
 settings or backup files produced by your editor to the
-repository](#what-to-exclude-from-your-paper-repository) your personal choice
+repository](#what-to-exclude-from-your-paper-repository), your personal choice
 can co-exist alongside that of mine and your collaborators.
 
 Whatever environment you use, ensure you have a spell checker installed! (Again,
