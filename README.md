@@ -227,9 +227,9 @@ found by Andreas Zeller while reviewing papers, each of which you should avoid!
 There are some popular text books that are worth looking at as well (you're welcome
 to borrow them from me), these include:
 
-* [BUGS in Writing: A Guide to Debugging Your Prose](https://www.amazon.co.uk/BUGS-Writing-Revised-Guide-Debugging/dp/020137921X), by Lyn Dupre.
+* [BUGS in Writing: A Guide to Debugging Your Prose](https://www.goodreads.com/book/show/601222.Bugs_in_Writing), by Lyn Dupre.
 
-* [Writing for Computer Science](https://www.amazon.co.uk/Writing-Computer-Science-Justin-Zobel/dp/1852338024), by Justin Zobel.
+* [Writing for Computer Science](https://www.goodreads.com/book/show/117973.Writing_for_Computer_Science), by Justin Zobel.
 
 ### What to Do If the Advice Conflicts
 
