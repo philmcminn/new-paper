@@ -5,9 +5,9 @@
 * [Writing Environment](#writing-environment)
 * [Building Your Paper](#building-your-paper)
 * [File and Directory Naming](#file-and-directory-naming)
-* [What Shouldn't Be In Your Paper Repository](#what-shouldn't-your-paper-repository)
-  * [Experimental Materials](#experimental-materials)
-* [Writing](#writing)
+* [What Shouldn't Be In Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
+  * [Put All Experimental Materials in a Separate Repository](#put-all-experimental-materials-in-a-separate-repository)
+* [General Writing Tips](#general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
@@ -134,7 +134,7 @@ data, consider including it in the paper repository as a separate
 instead. A Git submodule is just a way of using some other Git repository in
 another, but where the two repositories can still be maintained independently.
 
-## Writing
+## General Writing Tips
 
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out! They also discuss
