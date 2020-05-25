@@ -9,7 +9,7 @@ material, and customise your paper with additional macros.
 Each section provides advice as to how to go about writing it. This advice can
 be deleted or commented out to make way for your own content.
 
-## Creating a Repository for Your Own Paper by Forking This One
+## Create a Repository for Your Own Paper by Forking This One
 
 In the top-right hand corner of the GitHub page for the repository, there should
 be a button named "Fork". Click this to fork the repository into your own space.
@@ -23,6 +23,13 @@ is a better name than "icse2020".
 For the same reasons as those
 [detailed in the next section](#file-and-directory-naming), choose a name formatted
 in "kebab-case" (i.e., all lower case with hyphens as word separators).
+
+## Building Your Paper
+
+I suggest you set up a development environment similar to one that you'd use for
+writign programs that will automatically compile your paper and build  
+a PDF. There are plenty of tools around to assist you in this process, and I 
+have used a number over the years. Currently, I use VS Code.
 
 ## File and Directory Naming
 
