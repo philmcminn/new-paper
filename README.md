@@ -111,10 +111,35 @@ data, consider including it in the paper repository as a separate
 instead. A Git submodule is just a way of using some other Git repository in
 another, but where the two repositories can still be maintained independently.
 
-## Spelling
+## Writing
 
-As I remarked earlier in these instructions, please ensure you use a spell
-checker! Many text editors enable you to install a plugin so that you can
+### Avoid Passive Voice
+
+First of all, please avoid passive voice. When you write in passive voice,
+you're removing the actor from the sentence (objects have things done to them
+rather than someone/something doing the action), and making your statement vague
+and imprecise. For example, it's important to know whether the steps in your
+empirical study were manual or automated (did you do them, or was it done
+automatically by your tool?). Passive voice often removes these details and can
+confuse readers and referees. Consider the sentence "test suites were generated
+for the subjects 30 times" (passive voice) vs. "my tool generated test suites
+for the subjects 30 times" (active voice). In multi-author papers, using "we"
+to say "we did it" is preferred to convey something in an experiment that was
+necessarily manual step, or involved us making a design choice from a series of
+possible options, and so on.
+
+Some students have difficulty identifying passive from active voice. This is
+where the ("zombies"
+tip)[https://www.grammarly.com/blog/a-scary-easy-way-to-help-you-find-passive-voice/]
+comes in useful: If you can add "by zombies" after the verb in the sentence, and
+it still makes sense, you probably have a sentence in passive voice. For more on
+passive voice and the zombies tip, see (Grammarly's web page on the
+topic)[[https://www.grammarly.com/blog/a-scary-easy-way-to-help-you-find-passive-voice/]].
+
+### British vs American Spelling
+
+Firstly, as I remarked earlier in these instructions, please ensure you use a
+spell checker! Many text editors enable you to install a plugin so that you can
 see any misspelled words while you're editing your document.
 
 British English or American English? I'm fine with whichever, so long as
@@ -124,7 +149,7 @@ from one version of English to another).
 For some publications, particularly American journals, the publisher will
 change all British spellings to American anyway (e.g. IEEE, ACM). I often
 just go with American even though I'm a Brit, because the spellings are
-more concise --- every character of space is important! :-)
+more concise – every character of space is important! :-)
 
 Note that there are some words that are still used in every day British
 English that have disappeared from American English. These words sound
