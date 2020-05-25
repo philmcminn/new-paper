@@ -224,6 +224,14 @@ that covers more aspects and tips related to writing style than covered here.
 * [My top ten presentation issues in other's papers](https://andreas-zeller.blogspot.com/2013/04/my-top-ten-presentation-issues-in.html), a collection of bug-bears in papers
 found by Andreas Zeller while reviewing papers, each of which you should avoid!
 
+There are some popular text books that are worth looking at as well (you're welcome
+to borrow them from me), these include:
+
+* [BUGS in Writing, Revised Edition: A Guide to Debugging Your Prose](BUGS in Writing, Revised Edition: A Guide to Debugging Your Prose), by Lyn Dupre.
+
+* [Writing for Computer Science](https://www.amazon.co.uk/Writing-Computer-Science-Justin-Zobel/dp/1852338024), by Justin Zobel.
+
+
 ### What to Do If the Advice Conflicts
 
 Bear in mind that sometimes the advice given is subjective, and hence
