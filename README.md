@@ -203,6 +203,7 @@ that covers more aspects and tips related to writing style than covered here.
 * [My top ten presentation issues in other's papers](https://andreas-zeller.blogspot.com/2013/04/my-top-ten-presentation-issues-in.html), a collection of bug-bears in papers
 found by Andreas Zeller while reviewing papers, each of which you should avoid!
 
+
 ### But What if the Advice Conflicts?
 
 Bear in mind that sometimes the advice given is subjective, and hence
