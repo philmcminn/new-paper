@@ -161,7 +161,7 @@ often more concise – every character of space in a paper is important! :-)
 
 Note that there are some words that are still used in every day British
 English that have disappeared from American English. These words sound
-odd and quaint to the American ear (so you may find them automatically
+odd and quaint to the American ear (so you may find them silently
 corrected in your paper, especially if working with an American collaborator).
 Top of this list is the word "whilst". Just use "while" instead.
 
