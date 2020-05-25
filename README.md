@@ -116,17 +116,17 @@ another, but where the two repositories can still be maintained independently.
 ### Avoid Passive Voice
 
 First of all, please avoid passive voice. When you write in passive voice,
-you're removing the actor from the sentence (objects have things done to them
-rather than someone/something doing the action), and making your statement vague
-and imprecise. For example, it's important to know whether the steps in your
-empirical study were manual or automated (did you do them, or was it done
-automatically by your tool?). Passive voice often removes these details and can
-confuse readers and referees. Consider the sentence "test suites were generated
-for the subjects 30 times" (passive voice) vs. "my tool generated test suites
-for the subjects 30 times" (active voice). In multi-author papers, using "we"
-to say "we did it" is preferred to convey something in an experiment that was
-necessarily manual step, or involved us making a design choice from a series of
-possible options, and so on.
+you're excluding the "actor" from the sentence so that objects have things done
+to them rather than someone/something doing the action. This makes your
+sentences vague and imprecise. For example, it's important to know whether the
+steps in your empirical study were manual or automated (did you do them, or was
+it done automatically by your tool?). Passive voice often excludes these details
+and can confuse readers and referees. Consider the sentence "test suites were
+generated for the subjects 30 times" (passive voice) vs. "my tool generated test
+suites for the subjects 30 times" (active voice). In multi-author papers, using
+"we" to say "we did it" is preferred to convey something in an experiment that
+was necessarily manual step, or involved us making a design choice from a series
+of possible options, and so on.
 
 Some students have difficulty identifying passive from active voice. This is
 where the ["zombies"
