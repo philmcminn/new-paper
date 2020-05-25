@@ -1,5 +1,21 @@
 # LaTeX Repository for Writing New Papers
 
+* [Introduction](#introduction)
+* [Create a Repository for Your Own Paper by Forking This One](#create-a-repository-for-your-own-paper-by-forking-this-one)
+* [Writing Environment](#writing-environment)
+* [Building Your Paper](#building-your-paper)
+* [File and Directory Naming](#file-and-directory-naming)
+* [What Shouldn't Be In Your Paper Repository](#what-to-exclude-from-your-paper-repository)
+    * [Experimental Materials](#experimental-materials)
+* [Writing](#writing)
+    * [Avoid Passive Voice](#avoid-passive-voice)
+    * [British vs American Spelling](#british-vs-american-spelling)
+    * [Numbers](#numbers)
+* [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
+
+
+## Introduction
+
 This repository is designed to be forked by PhD students when they want to start
 writing a new research paper for a conference, journal, or an internal report.
 
