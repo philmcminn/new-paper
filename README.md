@@ -24,7 +24,7 @@ For the same reasons as those
 [detailed in the next section](#file-and-directory-naming), choose a name formatted
 in "kebab-case" (i.e., all lower case with hyphens as word separators).
 
-## Building Your Paper
+## Writing Environment
 
 I suggest you set up a development environment similar to one that you'd use for
 developing software, but which will automatically compile your LaTeX and build
@@ -49,7 +49,15 @@ VS Code has a plugin for one of these.) You will also find various other plugins
 useful, for example those that manage tabs/spaces and remove trailing spaces in
 your source text files.
 
-At some point, however, you may need to compile the paper from a terminal window
+## Building Your Paper
+
+Even if you're using an integrated development environment to compile your paper,
+you will probably at some point need to compile the paper from a terminal window.
+I don't mandate that you use a Make file or any particular build tool, but I'm
+happy if that's what you want to do – so long as you leave some instructions if
+they're needed. Some students just include a build script in the root directory
+of their repository for convenience.
+
 The root file is `paper.tex`, and typically you will need to run LaTeX and
 BibTeX a couple of times to resolve all of the references properly in the
 document:
