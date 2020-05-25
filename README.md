@@ -192,8 +192,7 @@ should follow and contain a number of tips on how to write good LaTeX,
 so review them first. After that, you may want to review the articles in the
 next section.
 
-### Further Advice
-
+## Further Advice
 
 There are a number of good resources on the web, that you should check out too.
 See, the following links, for example:
@@ -204,7 +203,6 @@ See, the following links, for example:
   by John Regehr.
 * [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/), an excellent blog post by Claire Le Goues
 that covers some more aspects and tips related to writing style.
-
 
 Bear in mind that sometimes the advice given is subjective, and hence
 contradictory.
