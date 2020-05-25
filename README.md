@@ -231,7 +231,6 @@ to borrow them from me), these include:
 
 * [Writing for Computer Science](https://www.amazon.co.uk/Writing-Computer-Science-Justin-Zobel/dp/1852338024), by Justin Zobel.
 
-
 ### What to Do If the Advice Conflicts
 
 Bear in mind that sometimes the advice given is subjective, and hence
