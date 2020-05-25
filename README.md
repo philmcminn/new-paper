@@ -119,7 +119,7 @@ data, consider including it in the paper repository as a separate
 instead. A Git submodule is just a way of using some other Git repository in
 another, but where the two repositories can still be maintained independently.
 
-## Writing Style
+## Writing
 
 ### Avoid Passive Voice
 
@@ -180,22 +180,18 @@ doesn't appear at the start, as both look a little bit strange.
 * Numbers less than or equal to ten in the middle of a sentence (this sentence
 is an example) – unless you're quoting actual data points from your experiment.
 
-### More Advice
-
-See this blog post by Claire Le Goues entitled "[Things I Keep
-Repeating About
-Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/)"
-for more excellent tips on writing style.
-
-## What Goes in Each Paper Section
+### What Goes in Each Paper Section
 
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out!
 
-## Good LaTeX Style
+### Good LaTeX Style
 
 Again, the source LaTeX files in this repository contain a number of tips
 on how to write good LaTeX, so review them first.
+
+### Further Advice
+
 
 There are a number of good resources on the web, that you should check out too.
 See, the following links, for example:
@@ -204,6 +200,9 @@ See, the following links, for example:
   by Diomidis Spinellis.
 * [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/),
   by John Regehr.
+* [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/)
+– an excellent blog post by Claire Le Goues entitled for more tips on writing style.
+
 
 Bear in mind that sometimes the advice given is subjective, and hence
 contradictory.
