@@ -173,8 +173,8 @@ accepted scientific writing style. In general, numbers should appear as numbers,
 but there are some special cases where you should write them out as words,
 for example:
 
-* At the start of sentence. Write "Thirty-seven subjects..." as opposed
-to "37 subjects", or even better, just re-word the sentence so that the number
+* At the start of sentence. Write "Thirty-seven of the subjects..." as opposed
+to "37 of the subjects...", or even better, just re-word the sentence so that the number
 doesn't appear at the start, as both look a little bit strange.
 
 * Numbers less than or equal to ten in the middle of a sentence (this sentence
