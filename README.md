@@ -2,7 +2,7 @@
 
 * [Introduction](#introduction)
 * [Create a Repository for Your Own Paper by Forking This One](#create-a-repository-for-your-own-paper-by-forking-this-one)
-* [Setup Your Writing Environment](#setup-your-writing-environment)
+* [Setting up Your Writing Environment](#setting-up-your-writing-environment)
 * [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
 * [File and Directory Naming – Use `kebab-case`](#file-and-directory-naming--use-kebab-case)
 * [What Shouldn't Be In Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
@@ -41,7 +41,7 @@ For the same reasons as those
 [detailed in the next section](#file-and-directory-naming), choose a name formatted
 in "kebab-case" (i.e., all lower case with hyphens as word separators).
 
-## Setup Your Writing Environment
+## Setting up Your Writing Environment
 
 I suggest you set up a development environment similar to one that you'd use for
 developing software, but which will automatically compile your LaTeX and build
