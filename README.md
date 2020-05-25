@@ -5,14 +5,13 @@
 * [Writing Environment](#writing-environment)
 * [Building Your Paper](#building-your-paper)
 * [File and Directory Naming](#file-and-directory-naming)
-* [What Shouldn't Be In Your Paper Repository](#what-to-exclude-from-your-paper-repository)
-    * [Experimental Materials](#experimental-materials)
+* [What Shouldn't Be In Your Paper Repository](#what-shouldn't-your-paper-repository)
+  * [Experimental Materials](#experimental-materials)
 * [Writing](#writing)
-    * [Avoid Passive Voice](#avoid-passive-voice)
-    * [British vs American Spelling](#british-vs-american-spelling)
-    * [Numbers](#numbers)
+  * [Avoid Passive Voice](#avoid-passive-voice)
+  * [British vs American Spelling](#british-vs-american-spelling)
+  * [Numbers](#numbers)
 * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
-
 
 ## Introduction
 
@@ -106,7 +105,7 @@ lower-cased, with words separated with hyphens. Using lower-casing and not using
 spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
 
-## What to Exclude From Your Paper Repository
+## What Shouldn't Be In Your Paper Repository
 
 You can exclude files from the repository using the provided `.gitignore`file as
 a starting point. This file lives in the repository's root directory.
