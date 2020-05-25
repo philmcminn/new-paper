@@ -202,8 +202,8 @@ See, the following links, for example:
   by Diomidis Spinellis.
 * [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/),
   by John Regehr.
-* [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/)
-– an excellent blog post by Claire Le Goues entitled for more tips on writing style.
+* [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/), an excellent blog post by Claire Le Goues
+that covers some more aspects and tips related to writing style.
 
 
 Bear in mind that sometimes the advice given is subjective, and hence
