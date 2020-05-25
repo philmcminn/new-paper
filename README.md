@@ -100,7 +100,7 @@ PDF file (`paper.pdf`). You should also avoid commiting:
 
 * Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
 
-* Operating system files (e.g., `.DS_Store` on Mac) that can be particularly.
+* Operating system files (e.g., `.DS_Store` on Mac) that can be particularly
   irritating for users of other systems.
 
 * Editor backup files (e.g., `.bak` files), and editor settings files if you can
