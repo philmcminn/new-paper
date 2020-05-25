@@ -130,7 +130,7 @@ sentences vague and imprecise. For example, it's important to know whether the
 steps in your empirical study were manual or automated (did you do them, or was
 it done automatically by your tool?). Passive voice often excludes these details
 and can confuse readers and referees. Consider the sentence "test suites were
-generated for the subjects 30 times" (passive voice) vs. "my tool generated test
+generated for the subjects 30 times" (passive voice) vs. "our tool generated test
 suites for the subjects 30 times" (active voice). In multi-author papers, using
 "we" to say "we did it" is preferred to writing that something "was done", and
 to convey something in an experiment that was necessarily manual step, or involved
