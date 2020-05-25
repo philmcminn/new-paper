@@ -129,12 +129,10 @@ necessarily manual step, or involved us making a design choice from a series of
 possible options, and so on.
 
 Some students have difficulty identifying passive from active voice. This is
-where the ("zombies"
-tip)[https://www.grammarly.com/blog/a-scary-easy-way-to-help-you-find-passive-voice/]
+where the ["zombies"
+tip](https://www.grammarly.com/blog/a-scary-easy-way-to-help-you-find-passive-voice/)
 comes in useful: If you can add "by zombies" after the verb in the sentence, and
-it still makes sense, you probably have a sentence in passive voice. For more on
-passive voice and the zombies tip, see (Grammarly's web page on the
-topic)[[https://www.grammarly.com/blog/a-scary-easy-way-to-help-you-find-passive-voice/]].
+it still makes sense, you probably have a sentence in passive voice.
 
 ### British vs American Spelling
 
