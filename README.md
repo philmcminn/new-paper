@@ -27,9 +27,38 @@ in "kebab-case" (i.e., all lower case with hyphens as word separators).
 ## Building Your Paper
 
 I suggest you set up a development environment similar to one that you'd use for
-writign programs that will automatically compile your paper and build  
-a PDF. There are plenty of tools around to assist you in this process, and I 
-have used a number over the years. Currently, I use VS Code.
+developing software, but which will automatically compile your LaTeX and build
+a PDF.
+
+There are plenty of tools around to assist you in this process, and I have used
+a number over the years. Currently, I use [Visual Studio
+Code](https://code.visualstudio.com/) (VS Code for short), which is free and
+open source, with the [LaTeX
+workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+plugin, which among other things, automatically builds my PDF every time I make
+a change, and displays it in a pane of the editor so that I can see it while I
+am working on it. Others prefer more "traditional" solutions such as Vim or
+Emacs, but you can use whatever you prefer, and so long as you do not [add any
+settings or backup files produced by your editor to the
+repository](#what-to-exclude-from-your-paper-repository) your personal choice
+can co-exist alongside that of mine and your collaborators.
+
+Whatever environment you use, ensure you have a spell checker installed! (Again,
+VS Code has a plugin for one of these.) You will also find various other plugins
+useful, for example those that manage tabs/spaces and remove trailing spaces in
+your source text files.
+
+At some point, however, you may need to compile the paper from a terminal window
+The root file is `paper.tex`, and typically you will need to run LaTeX and
+BibTeX a couple of times to resolve all of the references properly in the
+document:
+
+```
+pdflatex paper.pdf
+bibtex *.aux
+pdflatex paper.pdf
+pdflatex paper.pdf
+```
 
 ## File and Directory Naming
 
@@ -52,7 +81,23 @@ lower-cased, with words separated with hyphens. Using lower-casing and not using
 spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
 
-## Experimental Materials
+## What to Exclude From Your Paper Repository
+
+You can exclude files from the repository using the provided `.gitignore`file as
+a starting point. This file lives in the repository's root directory.
+
+Firstly, do not commit build files to the repository, in particular the target
+PDF file (`paper.pdf`). You should also avoid commiting:
+
+* Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
+
+* Operating system files (e.g., `.DS_Store` on Mac) that can be particularly.
+  irritating for users of other systems.
+
+* Editor backup files (e.g., `.bak` files), and editor settings files if you can
+  avoid them (e.g., `.vscode`).
+
+### Experimental Materials
 
 You should use a separate Git repository for all of your experimental data
 and materials. That is, keep your paper repository for LaTeX files only,
@@ -64,6 +109,21 @@ data, consider including it in the paper repository as a separate
 [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 instead. A Git submodule is just a way of using some other Git repository in
 another, but where the two repositories can still be maintained independently.
+
+### Spelling
+
+As I've already stated in these instructions, please ensure you use a spell
+checker! Many text editors enable you to install a plugin so that you can
+see any mispelt words while you're editing your document.
+
+British English or American English? I'm fine with whichever, so long as
+everyone working on the paper knows (and doesn't keep changing the spellings
+from one version of English to another).
+
+For some publications, particularly American journals, the publisher will
+change all British spellings to American anyway (e.g. IEEE, ACM). I often
+just go with American even though I'm a Brit, because the spellings are
+more concise --- every character of space is important! :-)
 
 ## Using This Repository in Conjunction with Other Latex Advice on the Web
 

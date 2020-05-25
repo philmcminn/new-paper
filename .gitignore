@@ -1,11 +1,7 @@
 # BUILD FILES
 paper.pdf
 
-# FILESYSTEM
-.DS_Store
-.vscode
-
-# LATEX
+# LATEX TEMPORARY FILES
 *.aux
 *.fdb_latex
 *.fdb_latexmk
@@ -18,8 +14,13 @@ paper.pdf
 *.synctex.gz
 *.toc
 
-
-# BIBTEX
+# BIBTEX TEMPORARY FILES
 *.bbl
 *.bib
 *.blg
+
+# OS
+.DS_Store
+
+# EDITOR
+.vscode
