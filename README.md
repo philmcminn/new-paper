@@ -157,7 +157,7 @@ from one version of English to another).
 For some publications, particularly American journals, the publisher will
 change all British spellings to American anyway (e.g. IEEE, ACM). I often
 just go with American even though I'm a Brit, because the spellings are
-more concise – every character of space is important! :-)
+often more concise – every character of space is important! :-)
 
 Note that there are some words that are still used in every day British
 English that have disappeared from American English. These words sound
