@@ -4,7 +4,7 @@
 * [Create a Repository for Your Own Paper by Forking This One](#create-a-repository-for-your-own-paper-by-forking-this-one)
 * [Setup Your Writing Environment](#setup-your-writing-environment)
 * [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
-* [File and Directory Naming](#file-and-directory-naming)
+* [File and Directory Naming – Use `kebab-case`](#file-and-directory-naming--use-kebab-case)
 * [What Shouldn't Be In Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
   * [Types of Files That You Should Set Git to Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate Repository](#put-all-experimental-materials-in-a-separate-repository)
