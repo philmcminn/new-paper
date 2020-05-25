@@ -157,6 +157,28 @@ odd and quaint to the American ear (so you may find them automatically
 corrected in your paper, especially if working with an American collaborator).
 Top of this list is the word "whilst". Just use "while" instead.
 
+### Numbers
+
+There are certain rules around writing numbers that just look "right" but
+generally have no particular explanation, and are just part of generally
+accepted scientific writing style. In general, numbers should appear as numbers,
+but there are some special cases where you should write them out as words,
+for example:
+
+* At the start of sentence. Write "Thirty-seven subjects..." as opposed
+to "37 subjects", or even better, just re-word the sentence so that the number
+doesn't appear at the start, as both look a little bit strange.
+
+* Numbers less than or equal to ten in the middle of a sentence (this sentence
+is an example) --- unless you're quoting actual data points from your experiment.
+
+### More Advice
+
+See this blog post by Claire Le Goues entitled "[Things I Keep
+Repeating About
+Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/)"
+for more excellent tips on paper writing style.
+
 ## Using This Repository in Conjunction with Other Latex Advice on the Web
 
 The comments of this paper offer a number of tips on how to write good LaTeX.
