@@ -124,9 +124,11 @@ it done automatically by your tool?). Passive voice often excludes these details
 and can confuse readers and referees. Consider the sentence "test suites were
 generated for the subjects 30 times" (passive voice) vs. "my tool generated test
 suites for the subjects 30 times" (active voice). In multi-author papers, using
-"we" to say "we did it" is preferred to convey something in an experiment that
-was necessarily manual step, or involved us making a design choice from a series
-of possible options, and so on.
+"we" to say "we did it" is preferred to writing that something "was done", and
+to convey something in an experiment that was necessarily manual step, or involved
+us making a choice from a series of possible options. Any of these could apply
+to deriving an algorithm, implementing a tool, choosing a particular aspect
+of an experiment's design, and so on.
 
 Some students have difficulty identifying passive from active voice. This is
 where the ["zombies"
