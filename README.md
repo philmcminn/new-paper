@@ -6,7 +6,7 @@
 * [Building Your Paper](#building-your-paper)
 * [File and Directory Naming](#file-and-directory-naming)
 * [What Shouldn't Be In Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
-  * [Files That You Should Set Git to Ignore]()
+  * [Types of Files That You Should Set Git to Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate Repository](#put-all-experimental-materials-in-a-separate-repository)
 * [General Writing Tips](#general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
