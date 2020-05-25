@@ -108,7 +108,7 @@ PDF file (`paper.pdf`). You should also avoid commiting:
 
 ### A Note on Experimental Materials
 
-You should use a separate Git repository for all of your experimental data
+You should use a _separate_ Git repository for all of your experimental data
 and materials. That is, keep your paper repository for LaTeX files only,
 or graphics/TikZ files etc. that are directly involved in the production
 of your paper.
