@@ -6,12 +6,14 @@
 * [Building Your Paper](#building-your-paper)
 * [File and Directory Naming](#file-and-directory-naming)
 * [What Shouldn't Be In Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
+  * [Files That You Should Set Git to Ignore]()
   * [Put All Experimental Materials in a Separate Repository](#put-all-experimental-materials-in-a-separate-repository)
 * [General Writing Tips](#general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
-* [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
+* [Further Advice](#further-advice)
+  * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
 
 ## Introduction
 
@@ -108,7 +110,11 @@ cross-platform compatibility.
 ## What Shouldn't Be In Your Paper Repository
 
 You can exclude files from the repository using the provided `.gitignore`file as
-a starting point. This file lives in the repository's root directory.
+a starting point. This file lives in the repository's root directory, and
+already covers some of the file types discussed next, although your particular
+paper may develop to include some more.
+
+### Types of Files That You Should Set Git to Ignore
 
 Firstly, do not commit build files to the repository, in particular the target
 PDF file (`paper.pdf`). You should also avoid committing:
