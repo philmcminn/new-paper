@@ -42,7 +42,7 @@ while I edit it. Others prefer more "traditional" solutions such as Vim or
 Emacs, but you can use whatever you prefer, and so long as you do not [add any
 settings or backup files produced by your editor to the
 repository](#what-to-exclude-from-your-paper-repository), your personal choice
-can co-exist alongside that of mine and your collaborators.
+can co-exist alongside that of mine and your other collaborators.
 
 Whatever environment you use, ensure you have a spell checker installed! (Again,
 VS Code has a plugin for one of these.) You will also find various other plugins
