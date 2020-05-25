@@ -119,7 +119,7 @@ data, consider including it in the paper repository as a separate
 instead. A Git submodule is just a way of using some other Git repository in
 another, but where the two repositories can still be maintained independently.
 
-## Writing
+## Writing Style
 
 ### Avoid Passive Voice
 
@@ -185,13 +185,19 @@ is an example) – unless you're quoting actual data points from your experiment
 See this blog post by Claire Le Goues entitled "[Things I Keep
 Repeating About
 Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/)"
-for more excellent tips on paper writing style.
+for more excellent tips on writing style.
 
-## Using This Repository in Conjunction with Other Latex Advice on the Web
+## What Goes in Each Paper Section
 
-The comments of this paper offer a number of tips on how to write good LaTeX.
+The text and comments embedded in the `.tex` files of this paper discuss how to
+go about writing each section of the paper. Check them out!
 
-There is a lot of other good advice on the web, that you should check out too.
+## Good LaTeX Style
+
+Again, the source LaTeX files in this repository contain a number of tips
+on how to write good LaTeX, so review them first.
+
+There are a number of good resources on the web, that you should check out too.
 See, the following links, for example:
 
 * [Advice for Writing LaTeX Documents](https://github.com/dspinellis/latex-advice),
