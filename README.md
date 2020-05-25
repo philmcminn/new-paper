@@ -106,7 +106,7 @@ PDF file (`paper.pdf`). You should also avoid commiting:
 * Editor backup files (e.g., `.bak` files), and editor settings files if you can
   avoid them (e.g., `.vscode`).
 
-### Experimental Materials
+### A Note on Experimental Materials
 
 You should use a separate Git repository for all of your experimental data
 and materials. That is, keep your paper repository for LaTeX files only,
