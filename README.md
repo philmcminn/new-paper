@@ -2,8 +2,8 @@
 
 * [Introduction](#introduction)
 * [Create a Repository for Your Own Paper by Forking This One](#create-a-repository-for-your-own-paper-by-forking-this-one)
-* [Writing Environment](#writing-environment)
-* [Building Your Paper](#building-your-paper)
+* [Setup Your Writing Environment](#setup-your-writing-environment)
+* [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
 * [File and Directory Naming](#file-and-directory-naming)
 * [What Shouldn't Be In Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
   * [Types of Files That You Should Set Git to Ignore](#types-of-files-that-you-should-set-git-to-ignore)
@@ -41,7 +41,7 @@ For the same reasons as those
 [detailed in the next section](#file-and-directory-naming), choose a name formatted
 in "kebab-case" (i.e., all lower case with hyphens as word separators).
 
-## Writing Environment
+## Setup Your Writing Environment
 
 I suggest you set up a development environment similar to one that you'd use for
 developing software, but which will automatically compile your LaTeX and build
@@ -66,7 +66,7 @@ VS Code has a plugin for one of these.) You will also find various other plugins
 useful, for example those that manage tabs/spaces and remove trailing spaces in
 your source text files.
 
-## Building Your Paper
+## Building Your Paper at the Terminal
 
 Even if you're using an integrated development environment to compile your paper,
 you will probably at some point need to compile the paper from a terminal window.
@@ -86,7 +86,7 @@ pdflatex paper.pdf
 pdflatex paper.pdf
 ```
 
-## File and Directory Naming
+## File and Directory Naming – use kebab-case
 
 Over time, you will be adding your own files and content to your paper. The
 various files and examples in this repository demonstrate how to go about doing
