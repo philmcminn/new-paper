@@ -5,7 +5,7 @@
 * [Setting up Your Writing Environment](#setting-up-your-writing-environment)
 * [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
 * [File and Directory Naming – Use `kebab-case`](#file-and-directory-naming--use-kebab-case)
-* [What Shouldn't Be In Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
+* [What Shouldn't Be in Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
   * [Types of Files That You Should Set Git to Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate Repository](#put-all-experimental-materials-in-a-separate-repository)
 * [General Writing Tips](#general-writing-tips)
@@ -107,7 +107,7 @@ lower-cased, with words separated with hyphens. Using lower-casing and not using
 spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
 
-## What Shouldn't Be In Your Paper Repository
+## What Shouldn't Be in Your Paper Repository
 
 You can exclude files from the repository using the provided `.gitignore`file as
 a starting point. This file lives in the repository's root directory, and
