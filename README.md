@@ -58,7 +58,7 @@ editor tab so that I can see it while I am working on it, and have it update
 while I edit it. Others prefer more "traditional" solutions such as Vim or
 Emacs, but you can use whatever you prefer, and so long as you do not [add any
 settings or backup files produced by your editor to the
-repository](#what-to-exclude-from-your-paper-repository), your personal choice
+repository](#what-shouldnt-be-in-your-paper-repository), your personal choice
 can co-exist alongside that of mine and your other collaborators.
 
 Whatever environment you use, ensure you have a spell checker installed! (Again,
