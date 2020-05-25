@@ -185,10 +185,12 @@ is an example) – unless you're quoting actual data points from your experiment
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out!
 
-### Good LaTeX Style
+### LaTeX Style
 
-Again, the source LaTeX files in this repository contain a number of tips
-on how to write good LaTeX, so review them first.
+Again, the source LaTeX files in this repository discuss the conventions you
+should follow and contain a number of tips on how to write good LaTeX,
+so review them first. After that, you may want to review the articles in the
+next section.
 
 ### Further Advice
 
