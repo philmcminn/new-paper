@@ -111,11 +111,11 @@ data, consider including it in the paper repository as a separate
 instead. A Git submodule is just a way of using some other Git repository in
 another, but where the two repositories can still be maintained independently.
 
-### Spelling
+## Spelling
 
-As I've already stated in these instructions, please ensure you use a spell
+As I remarked earlier in these instructions, please ensure you use a spell
 checker! Many text editors enable you to install a plugin so that you can
-see any mispelt words while you're editing your document.
+see any misspelled words while you're editing your document.
 
 British English or American English? I'm fine with whichever, so long as
 everyone working on the paper knows (and doesn't keep changing the spellings
@@ -125,6 +125,12 @@ For some publications, particularly American journals, the publisher will
 change all British spellings to American anyway (e.g. IEEE, ACM). I often
 just go with American even though I'm a Brit, because the spellings are
 more concise --- every character of space is important! :-)
+
+Note that there are some words that are still used in every day British
+English that have disappeared from American English. These words sound
+odd and quaint to the American ear (so you may find them automatically
+corrected in your paper, especially if working with an American collaborator).
+Top of this list is the word "whilst". Just use "while" instead.
 
 ## Using This Repository in Conjunction with Other Latex Advice on the Web
 
