@@ -86,7 +86,7 @@ pdflatex paper.pdf
 pdflatex paper.pdf
 ```
 
-## File and Directory Naming – use kebab-case
+## File and Directory Naming – use `kebab-case`
 
 Over time, you will be adding your own files and content to your paper. The
 various files and examples in this repository demonstrate how to go about doing
