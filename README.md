@@ -121,6 +121,14 @@ another, but where the two repositories can still be maintained independently.
 
 ## Writing
 
+The text and comments embedded in the `.tex` files of this paper discuss how to
+go about writing each section of the paper. Check them out! They also discuss
+the conventions you should follow and contain a number of tips on how to write
+good LaTeX.
+
+What follows is a more general overview of writing style that applies throughout
+your paper:
+
 ### Avoid Passive Voice
 
 First of all, please avoid passive voice. When you write in passive voice,
@@ -146,7 +154,7 @@ it still makes sense, you probably have a sentence in passive voice.
 
 ### British vs American Spelling
 
-Firstly, as I remarked earlier in these instructions, please ensure you use a
+As I remarked earlier in these instructions, please ensure you use a
 spell checker! Many text editors enable you to install a plugin so that you can
 see any misspelled words while you're editing your document.
 
@@ -179,18 +187,6 @@ doesn't appear at the start, as both look a little bit strange.
 
 * Numbers less than or equal to ten in the middle of a sentence (this sentence
 is an example) – unless you're quoting actual data points from your experiment.
-
-### What Goes in Each Paper Section
-
-The text and comments embedded in the `.tex` files of this paper discuss how to
-go about writing each section of the paper. Check them out!
-
-### LaTeX Style
-
-Again, the source LaTeX files in this repository discuss the conventions you
-should follow and contain a number of tips on how to write good LaTeX,
-so review them first. After that, you may want to review the articles in the
-next section.
 
 ## Further Advice
 
