@@ -96,7 +96,7 @@ You can exclude files from the repository using the provided `.gitignore`file as
 a starting point. This file lives in the repository's root directory.
 
 Firstly, do not commit build files to the repository, in particular the target
-PDF file (`paper.pdf`). You should also avoid commiting:
+PDF file (`paper.pdf`). You should also avoid committing:
 
 * Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
 
@@ -191,30 +191,32 @@ is an example) – unless you're quoting actual data points from your experiment
 ## Further Advice
 
 There are a number of good resources on the web, that you should check out too.
+
 See, the following links, for example:
 
 * [Advice for Writing LaTeX Documents](https://github.com/dspinellis/latex-advice),
-  by Diomidis Spinellis.
-* [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/),
-  by John Regehr.
+  extensive guidance on LaTeX style, by Diomidis Spinellis.
+
 * [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/), an excellent blog post by Claire Le Goues
-that covers some more aspects and tips related to writing style.
+that covers more aspects and tips related to writing style than covered here.
+
+* [My top ten presentation issues in other's papers](https://andreas-zeller.blogspot.com/2013/04/my-top-ten-presentation-issues-in.html), a collection of bug-bears in papers
+found by Andreas Zeller while reviewing papers, each of which you should avoid!
+
+### But What if the Advice Conflicts?
 
 Bear in mind that sometimes the advice given is subjective, and hence
-contradictory.
-
-Always follow the guidelines specified by this repository if there is a
-conflict.
+contradictory. In that case, always follow the guidelines specified here
+above those you find elsewhere!
 
 For example, this repository chooses to structure papers by splitting its
 content across several files. This is because I think it is better to structure
 LaTeX documents in a modular fashion, much like a computer program. This
 approach will help you re-use components of your papers that you have written
-when you start to work on your PhD thesis.
-
-A common objection to doing it this way is that it makes it harder to find
-specific text later. But, if you structure your files in the way this repository
-suggests, finding things again should not be difficult – in fact, it should be
-very easy. Furthermore, if you get really stuck, then it is not hard to use the
-"Find" feature of a good text editor, so long as you include all the relevant
-files in the scope of the search.
+when you start to work on your PhD thesis. A common objection to doing it this
+way is that it makes it harder to find specific text later. But, if you
+structure your files in the way this repository suggests, finding things again
+should not be difficult – in fact, it should be very easy. Furthermore, if you
+get really stuck, then it is not hard to use the "Find" feature of a good text
+editor, so long as you include all the relevant files in the scope of the
+search.
