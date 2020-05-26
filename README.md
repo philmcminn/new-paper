@@ -218,11 +218,17 @@ See, the following links, for example:
 * [Advice for Writing LaTeX Documents](https://github.com/dspinellis/latex-advice),
   extensive guidance on LaTeX style, by Diomidis Spinellis.
 
-* [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/), an excellent blog post by Claire Le Goues
-that covers more aspects and tips related to writing style than covered here.
+* [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/),
+  an excellent blog post by Claire Le Goues that covers more aspects and tips
+  related to writing style than covered here.
 
-* [My top ten presentation issues in other's papers](https://andreas-zeller.blogspot.com/2013/04/my-top-ten-presentation-issues-in.html), a collection of bug-bears in papers
-found by Andreas Zeller while reviewing papers, each of which you should avoid!
+* [My top ten presentation issues in other's papers](https://andreas-zeller.blogspot.com/2013/04/my-top-ten-presentation-issues-in.html),
+  a collection of bug-bears in papers found by Andreas Zeller while reviewing
+  papers, each of which you should avoid!
+
+* [Guide to Punctuation](http://www.sussex.ac.uk/informatics/punctuation/toc) –
+  a good and detailed guide to every punctuation symbol in English, and when to
+  use it. Covers differences in American usages.
 
 There are some popular text books that are worth looking at as well (you're welcome
 to borrow them from me), these include:
