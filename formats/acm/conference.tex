@@ -13,23 +13,38 @@
     \else
         \ifcsname firstauthor\endcsname
             \author{\firstauthor}
-            \affiliation{\institution{\firstauthoraffiliation}}
+            \affiliation{
+                \institution{\firstauthoraffiliation}
+                \country{\firstauthorcountry}
+            }
         \fi
         \ifcsname collaboratorone\endcsname
             \author{\collaboratorone}
-            \affiliation{\institution{\collaboratoroneaffiliation}}
+            \affiliation{
+                \institution{\collaboratoroneaffiliation}
+                \country{\collaboratoronecountry}
+            }
         \fi
         \ifcsname collaboratortwo\endcsname
             \author{\collaboratortwo}
-            \affiliation{\institution{\collaboratortwoaffiliation}}
+            \affiliation{
+                \institution{\collaboratortwoaffiliation}
+                \country{\collaboratortwocountry}
+            }
         \fi
         \ifcsname collaboratorthree\endcsname
             \author{\collaboratorthree}
-            \affiliation{\institution{\collaboratorthreeaffiliation}}
+            \affiliation{
+                \institution{\collaboratorthreeaffiliation}
+                \country{\collaboratorthreecountry}
+            }
         \fi
         \ifcsname lastauthor\endcsname
             \author{\lastauthor}
-            \affiliation{\institution{\lastauthoraffiliation}}
+            \affiliation{
+                \institution{\lastauthoraffiliation}
+                \country{\lastauthorcountry}
+            }            
         \fi
     \fi
 
