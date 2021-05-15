@@ -237,6 +237,12 @@ to borrow them from me), these include:
 
 * [Writing for Computer Science](https://www.goodreads.com/book/show/117973.Writing_for_Computer_Science), by Justin Zobel.
 
+Finally, some papers from tutorials given by Mary Shaw:
+
+* [Writing Good Software Engineering Papaers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf)
+
+* [What Makes Good Research In Software Engineering?(https://www.cs.cmu.edu/~Compose/ftp/shaw-fin-etaps.pdf)
+
 ### What to Do If the Advice Conflicts
 
 Bear in mind that sometimes the advice given is subjective, and hence
