@@ -248,8 +248,10 @@ _International Journal of Software Tools for Technology Transfer, vol. 4, no. 1,
 ### What to Do If the Advice Conflicts
 
 Bear in mind that sometimes the advice given is subjective, and hence
-contradictory. In that case, always follow the guidelines specified here
-above those you find elsewhere!
+contradictory, in which case you're free to make up your own mind --- although
+you may wish to discuss it with your supervisor first! If the route you take 
+has a significant impact on the way you will write or structure your paper, 
+you should discuss and get the agreement of all of your collaborators.
 
 For example, this repository chooses to structure papers by splitting its
 content across several files. This is because I think it is better to structure
