@@ -239,11 +239,11 @@ to borrow them from me), these include:
 
 Finally, some good tutorial papers written by Mary Shaw:
 
-* [Writing Good Software Engineering Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf)
-Proceedings of the International Conference on Software Engineering (ICSE), 2003.
+* [Writing Good Software Engineering Papers.](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf)
+_Proceedings of the International Conference on Software Engineering (ICSE), 2003._
 
 * [What Makes Good Research In Software Engineering?](https://www.cs.cmu.edu/~Compose/ftp/shaw-fin-etaps.pdf)
-International Journal of Software Tools for Technology Transfer, vol. 4, no. 1, 2002.
+_International Journal of Software Tools for Technology Transfer, vol. 4, no. 1, 2002._
 
 ### What to Do If the Advice Conflicts
 
