@@ -39,7 +39,8 @@ by GUI-based directory browsing programs like Finder or Explorer).
 If you _do_ want to fork the repository, then in the top-right hand corner of 
 the main page for the repository, there should be a button named "Fork". Click 
 this to fork the repository into your own space. The new repository will still 
-be called "new-paper", which you will want to change. 
+be called "new-paper", which you will want to change. See the next section on
+how to do this.
 
 ## Naming Your Repository
 
