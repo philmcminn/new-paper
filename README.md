@@ -26,10 +26,18 @@ material, and customise your paper with additional macros.
 Each section provides advice as to how to go about writing it. This advice can
 be deleted or commented out to make way for your own content.
 
-## Create a Repository for Your Own Paper by Forking This One
+## Create a Repository for Your Own Paper by Copying the Contents of This One
 
-In the top-right hand corner of the GitHub page for the repository, there should
-be a button named "Fork". Click this to fork the repository into your own space.
+At the time of writing, GitHub does not allow you to fork a publicly-available 
+repository like this one and then make it private. So assuming you want your
+new paper to be a private repository, simply create a new repository of your
+own, and having already cloned this one, copy the contents across (ensuring
+you copy all of the files, including the `.gitignore` file, which may be hidden
+by GUI-based directory browsing programs like Finder or Explorer).
+
+If you _do_ want to fork the repository, then in the top-right hand corner of 
+the main page for the repository, there should be a button named "Fork". Click 
+this to fork the repository into your own space.
 
 The new repository will still be called "new-paper", which you will want to
 change. To do this, go the "Settings" tab and rename it. Choose a name that is
