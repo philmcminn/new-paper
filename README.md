@@ -1,7 +1,8 @@
 # LaTeX Repository for Writing New Papers
 
 * [Introduction](#introduction)
-* [Create a Repository for Your Own Paper by Forking This One](#create-a-repository-for-your-own-paper-by-forking-this-one)
+* [Create a Repository for Your Own Paper by Copying the Contents of This One](#create-a-repository-for-your-own-paper-by-copying-the-contents-of-this-one)
+* [Naming Your Repository](#naming-your-repository)
 * [Setting up Your Writing Environment](#setting-up-your-writing-environment)
 * [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
 * [File and Directory Naming – Use `kebab-case`](#file-and-directory-naming--use-kebab-case)
@@ -37,17 +38,23 @@ by GUI-based directory browsing programs like Finder or Explorer).
 
 If you _do_ want to fork the repository, then in the top-right hand corner of 
 the main page for the repository, there should be a button named "Fork". Click 
-this to fork the repository into your own space.
+this to fork the repository into your own space. The new repository will still 
+be called "new-paper", which you will want to change. 
 
-The new repository will still be called "new-paper", which you will want to
-change. To do this, go the "Settings" tab and rename it. Choose a name that is
-indicative of the paper's *research content*, rather than the conference venue
-or journal you intend to submit it to. For example, "search-based-testability"
+## Naming Your Repository
+
+In terms of the name of your repository, choose one that is indicative of the 
+paper's *research content*, rather than the conference venue or journal you 
+intend to submit it to. For example, "search-based-testability"
 is a better name than "icse2020".
 
 For the same reasons as those
 [detailed in the next section](#file-and-directory-naming), choose a name formatted
 in "kebab-case" (i.e., all lower case with hyphens as word separators).
+
+GitHub repositories can be re-named at any time. To do this, go the "Settings" tab.
+Note that you may need to reclone the repository on your local machine after doing
+this.
 
 ## Setting up Your Writing Environment
 
