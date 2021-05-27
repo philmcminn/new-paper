@@ -80,10 +80,10 @@ BibTeX a couple of times to resolve all of the references properly in the
 document:
 
 ```
-pdflatex paper.pdf
+pdflatex paper
 bibtex *.aux
-pdflatex paper.pdf
-pdflatex paper.pdf
+pdflatex paper
+pdflatex paper
 ```
 
 ## File and Directory Naming – use `kebab-case`
@@ -248,7 +248,7 @@ _International Journal of Software Tools for Technology Transfer, vol. 4, no. 1,
 ### What to Do If the Advice Conflicts
 
 Bear in mind that sometimes the advice given is subjective, and hence
-contradictory, in which case you're free to make up your own mind --- although
+contradictory, in which case you're free to make up your own mind — although
 you may wish to discuss it with your supervisor first! If the route you take 
 has a significant impact on the way you will write or structure your paper, 
 you should discuss and get the agreement of all of your collaborators.
