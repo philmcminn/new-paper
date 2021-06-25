@@ -82,10 +82,10 @@ plugin. Among other things this plugin automatically builds my PDF every time I
 make a change to a `.tex` source file. With VSCode, I can display the PDF in an
 editor tab so that I can see it while I am working on it, and have it update
 while I edit it. Others prefer more "traditional" solutions such as Vim or
-Emacs, but you can use whatever you prefer, and so long as you do not [add any
+Emacs, but you can use whatever you prefer, and – so long as you do not [add any
 settings or backup files produced by your editor to the
-repository](#what-shouldnt-be-in-your-paper-repository), your personal choice
-can co-exist alongside that of mine and your other collaborators.
+repository](#what-shouldnt-be-in-your-paper-repository) – your personal choice
+can co-exist alongside that of your collaborators.
 
 Whatever environment you use, ensure you have a spell checker installed! (Again,
 VSCode has a plugin for one of these.) You will also find various other plugins
@@ -147,11 +147,11 @@ PDF file (`paper.pdf`). You should also avoid committing:
 
 * Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
 
-* Operating system files (e.g., `.DS_Store` on Mac) that can be particularly
+* Operating system files (e.g., `.DS_Store` on macOS) that can be particularly
   irritating for users of other systems.
 
-* Editor backup files (e.g., `.bak` files), and editor settings files if you can
-  avoid them (e.g., `.vscode`).
+* Editor backup files (e.g., `.bak` files), and editor settings files (e.g.,
+  `.vscode`), if you can avoid them.
 
 ### Put All Experimental Materials in a Separate Repository
 
@@ -185,55 +185,57 @@ sentences vague and imprecise. For example, it's important to know whether the
 steps in your empirical study were manual or automated (did you do them, or was
 it done automatically by your tool?). Passive voice often excludes these details
 and can confuse readers and referees. Consider the sentence "test suites were
-generated for the subjects 30 times" (passive voice) vs. "our tool generated test
-suites for the subjects 30 times" (active voice). In multi-author papers, using
-"we" to say "we did it" is preferred to writing that something "was done", and
-to convey something in an experiment that was necessarily manual step, or involved
-us making a choice from a series of possible options. Any of these could apply
-to deriving an algorithm, implementing a tool, choosing a particular aspect
-of an experiment's design, and so on.
+generated for the subjects 30 times" (passive voice) vs. "our tool generated
+test suites for the subjects 30 times" (active voice). In multi-author papers,
+using "we" to say "we did it" is preferred to writing that something "was done",
+and to convey something in an experiment that was necessarily manual step, or
+involved you making a choice from a series of possible options. Any of these
+could apply to when you want to write about deriving an algorithm, implementing
+a tool, choosing a particular aspect of an experiment's design, and so on.
 
-Some students have difficulty identifying passive from active voice. This is
-where the ["zombies"
+Sometimes it is difficult to identify passive from active voice! This is where
+the ["zombies"
 tip](https://www.grammarly.com/blog/a-scary-easy-way-to-help-you-find-passive-voice/)
 comes in useful: If you can add "by zombies" after the verb in the sentence, and
 it still makes sense, you probably have a sentence in passive voice.
 
 ### British vs American Spelling
 
-As I remarked earlier in these instructions, please ensure you use a
-spell checker! Many text editors enable you to install a plugin so that you can
-see any misspelled words while you're editing your document.
+As I remarked earlier in these instructions, please ensure you use a spell
+checker! Many text editors enable you to install a plugin so that you can see
+any misspelled words while you're editing your document.
 
-British English or American English? I'm fine with whichever, so long as
-everyone working on the paper knows (and doesn't keep changing the spellings
-from one version of English to another).
+British English or American English? Check with your supervisor if there is a
+potential decision to make here. If you're working with me, then I'm fine with
+whichever, so long as everyone working on the paper knows (and doesn't keep
+changing the spellings from one version of English to another).
 
-For some publications, particularly American journals, the publisher will
-change all British spellings to American anyway (e.g. IEEE, ACM). I often
-just go with American even though I'm a Brit, because the spellings are
-often more concise – every character of space in a paper is important! :-)
+For some publications, particularly American journals, the publisher will change
+all British spellings to American anyway (e.g. IEEE, ACM). I often just go with
+American even though I'm a Brit, because the spellings are often shorter – every
+character of space in a paper is important! :-)
 
-Note that there are some words that are still used in every day British
-English that have disappeared from American English. These words sound
-odd and quaint to the American ear (so you may find them silently
-corrected in your paper, especially if working with an American collaborator).
-Top of this list is the word "whilst". Just use "while" instead.
+Note that there are some words that are still used in every day British English
+that have disappeared from American English. These words sound odd and quaint to
+the American ear (so you may find them silently corrected in your paper,
+especially if working with an American collaborator). Top of this list is the
+word "whilst". Just use "while" instead.
 
 ### Numbers
 
 There are certain rules around writing numbers that just look "right" but
 generally have no particular explanation, and are just part of generally
 accepted scientific writing style. In general, numbers should appear as numbers,
-but there are some special cases where you should write them out as words,
-for example:
+but there are some special cases where you should write them out as words, for
+example:
 
 * At the start of sentence. Write "Thirty-seven of the subjects..." as opposed
-to "37 of the subjects...", or even better, just re-word the sentence so that the number
-doesn't appear at the start, as both look a little bit strange.
+  to "37 of the subjects...", or even better, just re-word the sentence so that
+  the number doesn't appear at the start, as both look a little bit strange.
 
 * Numbers less than or equal to ten in the middle of a sentence (this sentence
-is an example) – unless you're quoting actual data points from your experiment.
+  is an example) – unless you're quoting actual data points from your
+  experiment.
 
 ## Further Advice
 
@@ -283,10 +285,10 @@ For example, this repository chooses to structure papers by splitting its
 content across several files. This is because I think it is better to structure
 LaTeX documents in a modular fashion, much like a computer program. This
 approach will help you re-use components of your papers that you have written
-when you start to work on your PhD thesis. A common objection to doing it this
-way is that it makes it harder to find specific text later. But, if you
-structure your files in the way this repository suggests, finding things again
-should not be difficult – in fact, it should be very easy. Furthermore, if you
-get really stuck, then it is not hard to use the "Find" feature of a good text
-editor, so long as you include all the relevant files in the scope of the
-search.
+when you start to work on your Masters dissertation, or PhD thesis. A common
+objection to doing it this way is that it makes it harder to find specific text
+later. But, if you structure your files in the way this repository suggests,
+finding things again should not be difficult – in fact, it should be very easy.
+Furthermore, if you get really stuck, then it is not hard to use the "Find"
+feature of a good text editor, so long as you include all the relevant files in
+the scope of the search.
