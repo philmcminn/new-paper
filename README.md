@@ -18,8 +18,9 @@
 
 ## Introduction
 
-This repository is designed to be used by new researchers when they want to start
-writing a new research paper for a conference, journal, or an internal report.
+This repository is designed to be used by new researchers (e.g. PhD and Masters 
+students) when they want to start writing a new research paper for a conference, 
+journal, or an internal report.
 
 It provides a skeleton set of files and folders in which you can write your own
 material, and customise your paper with additional macros.
