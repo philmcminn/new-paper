@@ -92,10 +92,10 @@ your source text files.
 
 Even if you're using an integrated development environment to compile your paper,
 you will probably at some point need to compile the paper from a terminal window.
-I don't mandate that you use a Make file or any particular build tool, but I'm
-happy if that's what you want to do – so long as you leave some instructions if
-they're needed. Some students just include a build script in the root directory
-of their repository for convenience.
+If you're working with me, then I don't mandate that you use a Make file or any 
+particular build tool, but I'm happy if that's what you want to do – so long as 
+you leave some instructions if they're needed. Some students just include a build 
+script in the root directory of their repository for convenience.
 
 The root file is `paper.tex`, and typically you will need to run LaTeX and
 BibTeX a couple of times to resolve all of the references properly in the
