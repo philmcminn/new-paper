@@ -18,7 +18,7 @@
 
 ## Introduction
 
-This repository is designed to be used by new researchers (e.g. PhD and Masters 
+This repository is designed to be used by new researchers (e.g., PhD and Masters 
 students) when they want to start writing a new research paper for a conference, 
 journal, or an internal report.
 
