@@ -18,8 +18,8 @@
 
 ## Introduction
 
-This repository is designed to be used by new researchers (e.g., PhD and Masters 
-students) when they want to start writing a new research paper for a software 
+This repository is designed to be used by new researchers (e.g., PhD and Masters
+students) when they want to start writing a new research paper for a software
 engineering conference, journal, or an internal report.
 
 It provides a skeleton set of files and folders in which you can write your own
@@ -28,10 +28,10 @@ material, and customise your paper with additional macros.
 Each section provides advice as to how to go about writing it. This advice can
 be deleted or commented out to make way for your own content.
 
-The format assumes that you have researched a new technique that have empirically
-evaluated. If you want to write a purely empirical paper, you may need to tweak
-the sections. However, it is not really suitable for a paper that involves only
-proofs and no empirical study.
+The format assumes that you have researched a new technique that have
+empirically evaluated. If you want to write a purely empirical paper, you may
+need to tweak the sections. However, it is not really suitable for a paper that
+involves only proofs and no empirical study.
 
 ## Create a Repository for Your Own Paper by Copying the Contents of This One
 
@@ -50,10 +50,14 @@ how to do this.
 
 ## Naming Your Repository
 
-In terms of the name of your repository, choose one that is indicative of the 
-paper's *research content*, rather than the conference venue or journal you 
-intend to submit it to. For example, "search-based-testability"
-is a better name than "icse2020".
+In terms of the name of your repository, choose one that is indicative of the
+paper's *research content*, rather than the conference venue or journal you
+intend to submit it to. For example, "search-based-testability" is a better name
+than "icse2020". This is because you may decide later to submit your work to a
+different venue. Or, your work may not be accepted to the first venue you submit
+to, and you may need to revise your paper and submit it to another. In either
+case, the original venue name will no longer be a suitable choice of name for
+your repository.
 
 For the same reasons as those
 [detailed in the next section](#file-and-directory-naming), choose a name formatted
@@ -71,11 +75,11 @@ a PDF.
 
 There are plenty of tools around to assist you in this process, and I have used
 a number over the years. Currently, I use [Visual Studio
-Code](https://code.visualstudio.com/) (VS Code for short), which is free and
+Code](https://code.visualstudio.com/) (VSCode for short), which is free and
 open source, with the [LaTeX
 workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 plugin. Among other things this plugin automatically builds my PDF every time I
-make a change to a `.tex` source file. With VS Code, I can display the PDF in an
+make a change to a `.tex` source file. With VSCode, I can display the PDF in an
 editor tab so that I can see it while I am working on it, and have it update
 while I edit it. Others prefer more "traditional" solutions such as Vim or
 Emacs, but you can use whatever you prefer, and so long as you do not [add any
@@ -84,7 +88,7 @@ repository](#what-shouldnt-be-in-your-paper-repository), your personal choice
 can co-exist alongside that of mine and your other collaborators.
 
 Whatever environment you use, ensure you have a spell checker installed! (Again,
-VS Code has a plugin for one of these.) You will also find various other plugins
+VSCode has a plugin for one of these.) You will also find various other plugins
 useful, for example those that manage tabs/spaces and remove trailing spaces in
 your source text files.
 
