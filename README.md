@@ -265,7 +265,8 @@ to borrow them from me), these include:
 
 * [Writing for Computer Science](https://www.goodreads.com/book/show/117973.Writing_for_Computer_Science), by Justin Zobel.
 
-Finally, some good tutorial papers written by Mary Shaw:
+Finally, some good tutorial papers written by Mary Shaw. This are a little old
+now, but the advice in them is still good and relevant!
 
 * [Writing Good Software Engineering Papers.](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf)
 _Proceedings of the International Conference on Software Engineering (ICSE), 2003._
