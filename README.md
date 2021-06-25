@@ -19,14 +19,19 @@
 ## Introduction
 
 This repository is designed to be used by new researchers (e.g., PhD and Masters 
-students) when they want to start writing a new research paper for a conference, 
-journal, or an internal report.
+students) when they want to start writing a new research paper for a software 
+engineering conference, journal, or an internal report.
 
 It provides a skeleton set of files and folders in which you can write your own
 material, and customise your paper with additional macros.
 
 Each section provides advice as to how to go about writing it. This advice can
 be deleted or commented out to make way for your own content.
+
+The format assumes that you have researched a new technique that have empirically
+evaluated. If you want to write a purely empirical paper, you may need to tweak
+the sections. However, it is not really suitable for a paper that involves only
+proofs and no empirical study.
 
 ## Create a Repository for Your Own Paper by Copying the Contents of This One
 
