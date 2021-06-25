@@ -1,4 +1,4 @@
-# LaTeX Repository for Writing New Papers
+# LaTeX Repository for Writing New Software Engineering Papers with Empirical Evaluations
 
 * [Introduction](#introduction)
 * [Create a Repository for Your Own Paper by Copying the Contents of This One](#create-a-repository-for-your-own-paper-by-copying-the-contents-of-this-one)
