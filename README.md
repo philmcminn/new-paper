@@ -60,7 +60,7 @@ case, the original venue name will no longer be a suitable choice of name for
 your repository.
 
 For the same reasons as those
-[detailed in the next section](#file-and-directory-naming), choose a name formatted
+[detailed later](#file-and-directory-naming--use-kebab-case), choose a name formatted
 in "kebab-case" (i.e., all lower case with hyphens as word separators).
 
 GitHub repositories can be re-named at any time. To do this, go the "Settings" tab.
