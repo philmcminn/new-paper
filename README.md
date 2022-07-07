@@ -4,22 +4,22 @@
 * [2. Installing LaTeX](#2-installing-latex)
 * [3. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
 * [4. File and Directory Naming](#4-file-and-directory-naming--use-kebab-case)
-* [Setting up Your Writing Environment](#setting-up-your-writing-environment)
-
-* [File and Directory Naming – Use
-  `kebab-case`](#file-and-directory-naming--use-kebab-case)
-* [What Shouldn't Be in Your Paper
-  Repository](#what-shouldnt-be-in-your-paper-repository)
-  * [Types of Files That You Should Set Git to
-    Ignore](#types-of-files-that-you-should-set-git-to-ignore)
-  * [Put All Experimental Materials in a Separate
-    Repository](#put-all-experimental-materials-in-a-separate-repository)
-* [General Writing Tips](#general-writing-tips)
+* [5. General Writing Tips](#5-general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
   * [Further Advice](#further-advice)
   * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
+* [6. Getting Your Own Paper and Its Repository
+  Setup](#6-getting-your-own-paper-and-its-repository-setup)
+* [7. What Shouldn't Be in Your Paper
+  Repository](#7-what-shouldnt-be-in-your-paper-repository)
+  * [Types of Files That You Should Set Git to
+    Ignore](#types-of-files-that-you-should-set-git-to-ignore)
+  * [Put All Experimental Materials in a Separate
+    Repository](#put-all-experimental-materials-in-a-separate-repository)
+* [8. Setting up Your Writing
+  Environment](#8-setting-up-your-writing-environment)
 
 ## 1. Introduction
 
@@ -239,7 +239,7 @@ Furthermore, if you get really stuck, then it is not hard to use the "Find"
 feature of a good text editor, so long as you include all the relevant files in
 the scope of the search.
 
-## 6. Getting Your Own Paper and Its Repository Set up
+## 6. Getting Your Own Paper and Its Repository Setup
 
 You can create a simplified version of `new-paper` (with advisory text and
 example figures and tables removed) using the `copy_new_paper.py` Python script.
