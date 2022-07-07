@@ -117,7 +117,7 @@ files in a directory of the same name at the same directory level where you
 cloned `new-paper` (change the `../` to put it someplace else on your file
 system). 
 
-### Naming Your Repository
+### Choosing a Name For Your Repository
 
 In terms of the name of your repository, choose one that is indicative of the
 paper's *research content*, rather than the conference venue or journal you
