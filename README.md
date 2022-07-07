@@ -41,7 +41,7 @@ technique that have empirically evaluated. If you want to write a purely
 empirical paper, you may need to tweak the sections. However, it is not really
 suitable for a paper that involves only proofs and no empirical study.
 
-## 2. Installing Git and LaTeX
+## 2. Installing Git, LaTeX, and Cloning This Repository
 
 First of all, you need to ensure that Git and LaTeX are setup on your machine. 
 
