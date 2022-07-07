@@ -4,22 +4,22 @@
 * [2. Installing LaTeX](#2-installing-latex)
 * [3. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
 * [4. File and Directory Naming](#4-file-and-directory-naming--use-kebab-case)
-* [5. General Writing Tips](#5-general-writing-tips)
+* [5. Getting Your Own Paper and Its Repository
+  Setup](#5-getting-your-own-paper-and-its-repository-setup)
+* [6. What Shouldn't Be in Your Paper
+  Repository](#6-what-shouldnt-be-in-your-paper-repository)
+  * [Types of Files That You Should Set Git to
+    Ignore](#types-of-files-that-you-should-set-git-to-ignore)
+  * [Put All Experimental Materials in a Separate
+    Repository](#put-all-experimental-materials-in-a-separate-repository)
+* [7. Setting up Your Writing
+  Environment](#7-setting-up-your-writing-environment)
+* [8. General Writing Tips](#8-general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
   * [Further Advice](#further-advice)
   * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
-* [6. Getting Your Own Paper and Its Repository
-  Setup](#6-getting-your-own-paper-and-its-repository-setup)
-* [7. What Shouldn't Be in Your Paper
-  Repository](#7-what-shouldnt-be-in-your-paper-repository)
-  * [Types of Files That You Should Set Git to
-    Ignore](#types-of-files-that-you-should-set-git-to-ignore)
-  * [Put All Experimental Materials in a Separate
-    Repository](#put-all-experimental-materials-in-a-separate-repository)
-* [8. Setting up Your Writing
-  Environment](#8-setting-up-your-writing-environment)
 
 ## 1. Introduction
 
@@ -100,6 +100,129 @@ All file and directory names following the kebab-case convention are
 lower-cased, with words separated with hyphens. Using lower-casing and not using
 spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
+
+## 5. Getting Your Own Paper and Its Repository Setup
+
+You can create a simplified version of `new-paper` (with advisory text and
+example figures and tables removed) using the `copy_new_paper.py` Python script.
+Assuming you have Python 3 installed run the following command at the command
+line, from the directory where you have cloned `new-paper`. 
+
+```
+python3 copy_new_paper.py ../[REPO_NAME]
+```
+
+Where "[REPO_NAME]" is the name of your paper's repository. This will place the
+files in a directory of the same name at the same directory level where you
+cloned `new-paper` (change the `../` to put it someplace else on your file
+system). 
+
+### Naming Your Repository
+
+In terms of the name of your repository, choose one that is indicative of the
+paper's *research content*, rather than the conference venue or journal you
+intend to submit it to. For example, "search-based-testability" is a better name
+than "icse2020". This is because you may decide later to submit your work to a
+different venue. Or, your work may not be accepted to the first venue you submit
+to, and you may need to revise your paper and submit it to another. In either
+case, the original venue name will no longer be a suitable choice of name for
+your repository.
+
+For the same reasons as those [detailed
+later](#file-and-directory-naming--use-kebab-case), choose a name formatted in
+"kebab-case" (i.e., all lower case with hyphens as word separators).
+
+GitHub repositories can be re-named at any time. To do this, go the "Settings"
+tab. Note that you may need to reclone the repository on your local machine
+after doing this.
+
+### Setting Up Your Repository
+
+It's now time to ensure your paper directory is a Git repository that lives
+somewhere other than just on your machine. This is not just for version control,
+and so that others can work collaboratively with you, but also so that your work
+is backed up!
+
+We're going to assume you have an account on GitHub that can create private
+repositories. Go to your account and create a new repository with the name you
+have chosen for it. Ensure the repository is set to private. You don't need to
+add a README file at this stage or a `.gitignore` (one exists in `new-paper`),
+or set a license. Click "Create repository".
+
+Now go back to the directory where you just instructed the Python script to copy
+the contents of `new-paper` to, and type the following commands, where
+`[USERNAME]` is your user or organisation name, and `[REPO_NAME]` is your
+repository name:
+
+```
+git init
+git branch -m main
+git add *
+git add .gitignore
+git commit -m "First commit"
+git remote add origin git@github.com:[USERNAME]/[REPO_NAME].git
+git push -u origin main
+```
+
+... and you're done!
+
+## 6. What Shouldn't Be in Your Paper Repository
+
+You can exclude files from the repository using the provided `.gitignore`file as
+a starting point. This file lives in the repository's root directory, and
+already covers some of the file types discussed next, although your particular
+paper may develop to include some more.
+
+### Types of Files That You Should Set Git to Ignore
+
+Firstly, do not commit build files to the repository, in particular the target
+PDF file (`paper.pdf`). You should also avoid committing:
+
+* Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
+
+* Operating system files (e.g., `.DS_Store` on macOS) that can be particularly
+  irritating for users of other systems.
+
+* Editor backup files (e.g., `.bak` files), and editor settings files (e.g.,
+  `.vscode`), if you can avoid them.
+
+### Put All Experimental Materials in a Separate Repository
+
+You should use a *separate* Git repository for all of your experimental data and
+materials. That is, keep your paper repository for LaTeX files only, or
+graphics/TikZ files etc. that are directly involved in the production of your
+paper.
+
+If the build of your paper needs to generate tables or figures from your raw
+data, consider including it in the paper repository as a separate [Git
+submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) instead. A Git
+submodule is just a way of using some other Git repository in another, but where
+the two repositories can still be maintained independently.
+
+## 7. Setting up Your Writing Environment
+
+I suggest you set up a development environment similar to one that you'd use for
+developing software, but which will automatically compile your LaTeX and build a
+PDF.
+
+There are plenty of tools around to assist you in this process, and I have used
+a number over the years. Currently, I use [Visual Studio
+Code](https://code.visualstudio.com/) (VSCode for short), which is free and open
+source, with the [LaTeX
+workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+plugin. Among other things this plugin automatically builds my PDF every time I
+make a change to a `.tex` source file. With VSCode, I can display the PDF in an
+editor tab so that I can see it while I am working on it, and have it update
+while I edit it. Others prefer more "traditional" solutions such as Vim or
+Emacs, but you can use whatever you prefer, and – so long as you do not [add any
+settings or backup files produced by your editor to the
+repository](#what-shouldnt-be-in-your-paper-repository) – your personal choice
+can co-exist alongside that of your collaborators.
+
+Whatever environment you use, ensure you have a spell checker installed! (Again,
+VSCode has a plugin for one of these.) You will also find various other plugins
+useful, for example those that manage tabs/spaces and remove trailing spaces in
+your source text files.
 
 ## 5. General Writing Tips
 
@@ -238,126 +361,3 @@ finding things again should not be difficult – in fact, it should be very easy
 Furthermore, if you get really stuck, then it is not hard to use the "Find"
 feature of a good text editor, so long as you include all the relevant files in
 the scope of the search.
-
-## 6. Getting Your Own Paper and Its Repository Setup
-
-You can create a simplified version of `new-paper` (with advisory text and
-example figures and tables removed) using the `copy_new_paper.py` Python script.
-Assuming you have Python 3 installed run the following command at the command
-line, from the directory where you have cloned `new-paper`. 
-
-```
-python3 copy_new_paper.py ../[REPO_NAME]
-```
-
-Where "[REPO_NAME]" is the name of your paper's repository. This will place the
-files in a directory of the same name at the same directory level where you
-cloned `new-paper` (change the `../` to put it someplace else on your file
-system). 
-
-### Naming Your Repository
-
-In terms of the name of your repository, choose one that is indicative of the
-paper's *research content*, rather than the conference venue or journal you
-intend to submit it to. For example, "search-based-testability" is a better name
-than "icse2020". This is because you may decide later to submit your work to a
-different venue. Or, your work may not be accepted to the first venue you submit
-to, and you may need to revise your paper and submit it to another. In either
-case, the original venue name will no longer be a suitable choice of name for
-your repository.
-
-For the same reasons as those [detailed
-later](#file-and-directory-naming--use-kebab-case), choose a name formatted in
-"kebab-case" (i.e., all lower case with hyphens as word separators).
-
-GitHub repositories can be re-named at any time. To do this, go the "Settings"
-tab. Note that you may need to reclone the repository on your local machine
-after doing this.
-
-### Setting Up Your Repository
-
-It's now time to ensure your paper directory is a Git repository that lives
-somewhere other than just on your machine. This is not just for version control,
-and so that others can work collaboratively with you, but also so that your work
-is backed up!
-
-We're going to assume you have an account on GitHub that can create private
-repositories. Go to your account and create a new repository with the name you
-have chosen for it. Ensure the repository is set to private. You don't need to
-add a README file at this stage or a `.gitignore` (one exists in `new-paper`),
-or set a license. Click "Create repository".
-
-Now go back to the directory where you just instructed the Python script to copy
-the contents of `new-paper` to, and type the following commands, where
-`[USERNAME]` is your user or organisation name, and `[REPO_NAME]` is your
-repository name:
-
-```
-git init
-git branch -m main
-git add *
-git add .gitignore
-git commit -m "First commit"
-git remote add origin git@github.com:[USERNAME]/[REPO_NAME].git
-git push -u origin main
-```
-
-... and you're done!
-
-## 7. What Shouldn't Be in Your Paper Repository
-
-You can exclude files from the repository using the provided `.gitignore`file as
-a starting point. This file lives in the repository's root directory, and
-already covers some of the file types discussed next, although your particular
-paper may develop to include some more.
-
-### Types of Files That You Should Set Git to Ignore
-
-Firstly, do not commit build files to the repository, in particular the target
-PDF file (`paper.pdf`). You should also avoid committing:
-
-* Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
-
-* Operating system files (e.g., `.DS_Store` on macOS) that can be particularly
-  irritating for users of other systems.
-
-* Editor backup files (e.g., `.bak` files), and editor settings files (e.g.,
-  `.vscode`), if you can avoid them.
-
-### Put All Experimental Materials in a Separate Repository
-
-You should use a *separate* Git repository for all of your experimental data and
-materials. That is, keep your paper repository for LaTeX files only, or
-graphics/TikZ files etc. that are directly involved in the production of your
-paper.
-
-If the build of your paper needs to generate tables or figures from your raw
-data, consider including it in the paper repository as a separate [Git
-submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) instead. A Git
-submodule is just a way of using some other Git repository in another, but where
-the two repositories can still be maintained independently.
-
-## 8. Setting up Your Writing Environment
-
-I suggest you set up a development environment similar to one that you'd use for
-developing software, but which will automatically compile your LaTeX and build a
-PDF.
-
-There are plenty of tools around to assist you in this process, and I have used
-a number over the years. Currently, I use [Visual Studio
-Code](https://code.visualstudio.com/) (VSCode for short), which is free and open
-source, with the [LaTeX
-workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-plugin. Among other things this plugin automatically builds my PDF every time I
-make a change to a `.tex` source file. With VSCode, I can display the PDF in an
-editor tab so that I can see it while I am working on it, and have it update
-while I edit it. Others prefer more "traditional" solutions such as Vim or
-Emacs, but you can use whatever you prefer, and – so long as you do not [add any
-settings or backup files produced by your editor to the
-repository](#what-shouldnt-be-in-your-paper-repository) – your personal choice
-can co-exist alongside that of your collaborators.
-
-Whatever environment you use, ensure you have a spell checker installed! (Again,
-VSCode has a plugin for one of these.) You will also find various other plugins
-useful, for example those that manage tabs/spaces and remove trailing spaces in
-your source text files.
