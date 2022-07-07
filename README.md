@@ -224,7 +224,7 @@ VSCode has a plugin for one of these.) You will also find various other plugins
 useful, for example those that manage tabs/spaces and remove trailing spaces in
 your source text files.
 
-## 5. General Writing Tips
+## 8. General Writing Tips
 
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out! They also discuss
