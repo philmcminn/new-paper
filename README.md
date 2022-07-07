@@ -141,17 +141,30 @@ add a README file at this stage or a `.gitignore` (one exists in `new-paper`),
 or set a license. Click "Create repository".
 
 Now go back to the directory where you just instructed the Python script to copy
-the contents of `new-paper` to, and type the following commands, where
-`[USERNAME]` is your user or organisation name, and `[REPO_NAME]` is your
-repository name:
+the contents of `new-paper` to, and issue the following commands to initialise a
+Git repository in that directory, set the branch to `main`, add the files in the
+directory, and finally, make the first commit:
 
 ```
 git init
 git branch -m main
+```
+
+The next thing to do is to link this repository up with the one you created on
+GitHub, by issuing the following command, where `[USERNAME]` is your user or
+organisation name, and `[REPO_NAME]` is your repository name:
+
+```
+git remote add origin git@github.com:[USERNAME]/[REPO_NAME].git
+```
+
+Finally, add the files, commit them to the repository, and push the changes to
+GitHub:
+
+```
 git add *
 git add .gitignore
 git commit -m "First commit"
-git remote add origin git@github.com:[USERNAME]/[REPO_NAME].git
 git push -u origin main
 ```
 ... and you're done!
