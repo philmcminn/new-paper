@@ -1,7 +1,8 @@
 # LaTeX Repository for Writing New Software Engineering Papers with Empirical Evaluations
 
 * [1. Introduction](#1-introduction)
-* [2. Installing LaTeX](#2-installing-git-and-latex)
+* [2. Installing Git and LaTeX, and Cloning This
+  Repository](#2-installing-git-and-latex-and-cloning-this-repository)
 * [3. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
 * [4. File and Directory Naming](#4-file-and-directory-naming--use-kebab-case)
 * [5. Getting Your Own Paper and Its Repository
@@ -41,7 +42,7 @@ technique that have empirically evaluated. If you want to write a purely
 empirical paper, you may need to tweak the sections. However, it is not really
 suitable for a paper that involves only proofs and no empirical study.
 
-## 2. Installing Git, LaTeX, and Cloning This Repository
+## 2. Installing Git and LaTeX, and Cloning This Repository
 
 First of all, you need to ensure that Git and LaTeX are setup on your machine. 
 
