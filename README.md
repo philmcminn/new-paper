@@ -263,10 +263,9 @@ could apply to when you want to write about deriving an algorithm, implementing
 a tool, choosing a particular aspect of an experiment's design, and so on.
 
 Sometimes it is difficult to identify passive from active voice! This is where
-the ["zombies"
-tip](https://www.grammarly.com/blog/a-scary-easy-way-to-help-you-find-passive-voice/)
-comes in useful: If you can add "by zombies" after the verb in the sentence, and
-it still makes sense, you probably have a sentence in passive voice.
+the "zombies" tip comes in useful: If you can add "by zombies" after the verb in
+the sentence, and it still makes grammatical sense, you have a sentence written
+in passive voice.
 
 ### British vs American Spelling
 
