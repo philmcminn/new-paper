@@ -21,7 +21,7 @@
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
-  * [Further Advice](#further-advice)
+  * [Further Writing Advice](#further-writing-advice)
   * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
 
 ## 1. Introduction
