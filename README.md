@@ -4,20 +4,20 @@
 * [2. Installing Git and LaTeX, and Cloning This
   Repository](#2-installing-git-and-latex-and-cloning-this-repository)
 * [3. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
-* [4. File and Directory Naming](#4-file-and-directory-naming--use-kebab-case)
-* [5. Getting Your Own Paper and Its Repository
+* [4. Getting Your Own Paper and Its Repository
   Setup](#5-getting-your-own-paper-and-its-repository-setup)
   * [Choosing a Name For Your Repository](#choosing-a-name-for-your-repository)
   * [Setting Up Your Repository](#setting-up-your-repository)
-* [6. What _Shouldn't_ Be in Your Paper's
+  * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
+* [5. What _Shouldn't_ Be in Your Paper's
   Repository](#6-what-shouldnt-be-in-your-papers-repository)
   * [Types of Files That You Should Set Git to
     Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate
     Repository](#put-all-experimental-materials-in-a-separate-repository)
-* [7. Setting up Your Writing
+* [6. Setting up Your Writing
   Environment](#7-setting-up-your-writing-environment)
-* [8. General Writing Tips](#8-general-writing-tips)
+* [7. General Writing Tips](#8-general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
@@ -92,28 +92,7 @@ file](#5-getting-your-own-paper-and-its-repository-setup).
 First of all though, we're going to cover some general advice, including how to
 structure paper repositories, and some general writing tips. 
 
-## 4. File and Directory Naming – use `kebab-case`
-
-Over time, you will be adding your own files and content to your paper. The
-various files and examples in this repository demonstrate how to go about doing
-that.
-
-Please ensure you stick to the coding standards described in the comments of the
-paper. This helps ensure everything is consistent, that other people working
-with you (i.e., me, and possibly other collaborators) can find things easily
-(such as a figure file referenced using a certain label in a section file), and
-in general helps uphold the [Principle of Least
-Astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) for
-others when working on the paper.
-
-In particular, the repository opts to use
-"[kebab-case](https://wiki.c2.com/?KebabCase)" for naming files and directories.
-All file and directory names following the kebab-case convention are
-lower-cased, with words separated with hyphens. Using lower-casing and not using
-spaces (i.e., by using hyphens instead) in file and directory names ensures good
-cross-platform compatibility.
-
-## 5. Getting Your Own Paper and Its Repository Setup
+## 4. Getting Your Own Paper and Its Repository Setup
 
 You can create a simplified version of `new-paper` (with advisory text and
 example figures and tables removed) using the `copy_new_paper.py` Python script.
@@ -175,10 +154,30 @@ git commit -m "First commit"
 git remote add origin git@github.com:[USERNAME]/[REPO_NAME].git
 git push -u origin main
 ```
-
 ... and you're done!
 
-## 6. What _Shouldn't_ Be in Your Paper's Repository
+### File and Directory Naming – use `kebab-case`
+
+Over time, you will be adding your own files and content to your paper. The
+various files and examples in this repository demonstrate how to go about doing
+that.
+
+Please ensure you stick to the coding standards described in the comments of the
+paper. This helps ensure everything is consistent, that other people working
+with you (i.e., me, and possibly other collaborators) can find things easily
+(such as a figure file referenced using a certain label in a section file), and
+in general helps uphold the [Principle of Least
+Astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) for
+others when working on the paper.
+
+In particular, the repository opts to use
+"[kebab-case](https://wiki.c2.com/?KebabCase)" for naming files and directories.
+All file and directory names following the kebab-case convention are
+lower-cased, with words separated with hyphens. Using lower-casing and not using
+spaces (i.e., by using hyphens instead) in file and directory names ensures good
+cross-platform compatibility.
+
+## 5. What _Shouldn't_ Be in Your Paper's Repository
 
 You can exclude files from the repository using the provided `.gitignore`file as
 a starting point. This file lives in the repository's root directory, and
@@ -211,7 +210,7 @@ submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) instead. A Git
 submodule is just a way of using some other Git repository in another, but where
 the two repositories can still be maintained independently.
 
-## 7. Setting up Your Writing Environment
+## 6. Setting up Your Writing Environment
 
 I suggest you set up a development environment similar to one that you'd use for
 developing software, but which will automatically compile your LaTeX and build a
@@ -236,7 +235,7 @@ VSCode has a plugin for one of these.) You will also find various other plugins
 useful, for example those that manage tabs/spaces and remove trailing spaces in
 your source text files.
 
-## 8. General Writing Tips
+## 7. General Writing Tips
 
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out! They also discuss
