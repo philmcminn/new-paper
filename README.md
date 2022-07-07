@@ -1,7 +1,7 @@
 # LaTeX Repository for Writing New Software Engineering Papers with Empirical Evaluations
 
 * [1. Introduction](#1-introduction)
-* [2. Installing LaTeX](#2-installing-latex)
+* [2. Installing LaTeX](#2-installing-git-and-latex)
 * [3. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
 * [4. File and Directory Naming](#4-file-and-directory-naming--use-kebab-case)
 * [5. Getting Your Own Paper and Its Repository
