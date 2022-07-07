@@ -41,11 +41,13 @@ technique that have empirically evaluated. If you want to write a purely
 empirical paper, you may need to tweak the sections. However, it is not really
 suitable for a paper that involves only proofs and no empirical study.
 
-## 2. Installing LaTeX
+## 2. Installing Git and LaTeX
 
-First of all, you need to ensure LaTeX is setup on your machine. Checkout
+First of all, you need to ensure that Git and LaTeX are setup on your machine. 
+
+See https://git-scm.com/book/en/v2/Getting-Started-Installing-Git and
 https://www.latex-project.org/get for instructions on how to download and
-install it for your operating system.
+install them for your operating system.
 
 ## 3. Building Papers at the Terminal
 
