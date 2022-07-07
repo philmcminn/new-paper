@@ -106,7 +106,17 @@ python3 copy_new_paper.py ../[REPO_NAME]
 Where `[REPO_NAME]` is the name of your paper's repository. This will place the
 files in a directory of the same name at the same directory level where you
 cloned `new-paper` (change the `../` to put it someplace else on your file
-system). 
+system).
+
+You can use the `-c` option as follows to create a "clean" version that removes
+all text, comments, and unneeded files from the original new-paper repository.
+This option is useful for when you've written a few papers, and don't need all
+the advisory text – you just want to get started with a brand new paper without
+the clutter:
+
+```
+python3 copy_new_paper.py ../[REPO_NAME] -c
+```
 
 ### Choosing a Name For Your Repository
 
