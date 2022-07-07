@@ -44,7 +44,7 @@ suitable for a paper that involves only proofs and no empirical study.
 ## 2. Installing LaTeX
 
 First of all, you need to ensure LaTeX is setup on your machine. Checkout
-(https://www.latex-project.org/get) as to how to do it for your operating
+https://www.latex-project.org/get as to how to do it for your operating
 system.
 
 ## 3. Building Papers at the Terminal
