@@ -339,7 +339,7 @@ See, the following links, for example:
   LaTeX style, by Diomidis Spinellis.
 
 * [Things I Keep Repeating About
-  Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/),
+  Writing](https://clegoues.wordpress.com/2016/08/23/things-i-keep-repeating-about-writing/),
   an excellent blog post by Claire Le Goues that covers more aspects and tips
   related to writing style than covered here.
 
