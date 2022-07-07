@@ -1,7 +1,6 @@
 # LaTeX Repository for Writing New Software Engineering Papers with Empirical Evaluations
 
 * [Introduction](#introduction)
-* [Create a Repository for Your Own Paper by Copying the Contents of This One](#create-a-repository-for-your-own-paper-by-copying-the-contents-of-this-one)
 * [Naming Your Repository](#naming-your-repository)
 * [Setting up Your Writing Environment](#setting-up-your-writing-environment)
 * [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
@@ -20,79 +19,27 @@
 
 This repository is designed to be used by new researchers (e.g., PhD and Masters
 students) when they want to start writing a new research paper for a software
-engineering conference, journal, or an internal report.
+engineering conference, journal, or an internal report using LaTeX.
 
-It provides a skeleton set of files and folders in which you can write your own
-material, and customise your paper with additional macros.
+It provides a skeleton set of LaTeX files and folders (referred to as
+`new-paper` that you can use to as am example structure in which to write your
+own material, and customise your paper with additional macros.
 
-Each section provides advice as to how to go about writing it. This advice can
-be deleted or commented out to make way for your own content.
+First though, we're going to go through how to build `new-paper` and some
+general advice on writing papers. 
 
-The format assumes that you have researched a new technique that have
-empirically evaluated. If you want to write a purely empirical paper, you may
-need to tweak the sections. However, it is not really suitable for a paper that
-involves only proofs and no empirical study.
+The format described by `new-paper` assumes that you have researched a new
+technique that have empirically evaluated. If you want to write a purely
+empirical paper, you may need to tweak the sections. However, it is not really
+suitable for a paper that involves only proofs and no empirical study.
 
-## Create a Repository for Your Own Paper by Copying the Contents of This One
+## Installing LaTeX
 
-At the time of writing, GitHub does not allow you to fork a publicly-available 
-repository like this one and then make it private. So assuming you want your
-new paper to be a private repository, simply create a new repository of your
-own, and having already cloned this one, copy the contents across (ensuring
-you copy all of the files, including the `.gitignore` file, which may be hidden
-by GUI-based directory browsing programs like Finder or Explorer).
+First of all, you need to ensure LaTeX is setup on your machine. Checkout
+[https://www.latex-project.org/get/] as to how to do it for your operating
+system.
 
-If you _do_ want to fork the repository, then in the top-right hand corner of 
-the main page for the repository, there should be a button named "Fork". Click 
-this to fork the repository into your own space. The new repository will still 
-be called "new-paper", which you will want to change. See the next section on
-how to do this.
-
-## Naming Your Repository
-
-In terms of the name of your repository, choose one that is indicative of the
-paper's *research content*, rather than the conference venue or journal you
-intend to submit it to. For example, "search-based-testability" is a better name
-than "icse2020". This is because you may decide later to submit your work to a
-different venue. Or, your work may not be accepted to the first venue you submit
-to, and you may need to revise your paper and submit it to another. In either
-case, the original venue name will no longer be a suitable choice of name for
-your repository.
-
-For the same reasons as those
-[detailed later](#file-and-directory-naming--use-kebab-case), choose a name formatted
-in "kebab-case" (i.e., all lower case with hyphens as word separators).
-
-GitHub repositories can be re-named at any time. To do this, go the "Settings" tab.
-Note that you may need to reclone the repository on your local machine after doing
-this.
-
-## Setting up Your Writing Environment
-
-I suggest you set up a development environment similar to one that you'd use for
-developing software, but which will automatically compile your LaTeX and build
-a PDF.
-
-There are plenty of tools around to assist you in this process, and I have used
-a number over the years. Currently, I use [Visual Studio
-Code](https://code.visualstudio.com/) (VSCode for short), which is free and
-open source, with the [LaTeX
-workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-plugin. Among other things this plugin automatically builds my PDF every time I
-make a change to a `.tex` source file. With VSCode, I can display the PDF in an
-editor tab so that I can see it while I am working on it, and have it update
-while I edit it. Others prefer more "traditional" solutions such as Vim or
-Emacs, but you can use whatever you prefer, and – so long as you do not [add any
-settings or backup files produced by your editor to the
-repository](#what-shouldnt-be-in-your-paper-repository) – your personal choice
-can co-exist alongside that of your collaborators.
-
-Whatever environment you use, ensure you have a spell checker installed! (Again,
-VSCode has a plugin for one of these.) You will also find various other plugins
-useful, for example those that manage tabs/spaces and remove trailing spaces in
-your source text files.
-
-## Building Your Paper at the Terminal
+## Building Papers at the Terminal
 
 Even if you're using an integrated development environment to compile your paper,
 you will probably at some point need to compile the paper from a terminal window.
@@ -101,9 +48,16 @@ particular build tool, but I'm happy if that's what you want to do – so long a
 you leave some instructions if they're needed. Some students just include a build 
 script in the root directory of their repository for convenience.
 
-The root file is `paper.tex`, and typically you will need to run LaTeX and
-BibTeX a couple of times to resolve all of the references properly in the
-document:
+The root file is `paper.tex`. To compile the example and produce a PDF file you
+will need to run `pdflatex` as follows:
+
+```
+pdflatex paper
+```
+
+Later on (and not discussed further here) you will have BibTeX file(s)
+containing your references, and you'll need to run `pdflatex` a couple of times
+to resolve all of the references properly in the document:
 
 ```
 pdflatex paper
@@ -111,6 +65,13 @@ bibtex *.aux
 pdflatex paper
 pdflatex paper
 ```
+
+Each section in `new-paper` provides advice as to how to go about writing it.
+This advice can be deleted or commented out to make way for your own content,
+using the [instructions found later in this README file]().
+
+First of all though, we're going to cover some general advice, including how to
+structure paper repositories, and some general writing tips. 
 
 ## File and Directory Naming – use `kebab-case`
 
@@ -237,7 +198,7 @@ example:
   is an example) – unless you're quoting actual data points from your
   experiment.
 
-## Further Advice
+### Further Writing Advice
 
 There are a number of good resources on the web, that you should check out too.
 
@@ -293,3 +254,92 @@ finding things again should not be difficult – in fact, it should be very easy
 Furthermore, if you get really stuck, then it is not hard to use the "Find"
 feature of a good text editor, so long as you include all the relevant files in
 the scope of the search.
+
+## Getting Your Own Paper and Its Repository Set up
+
+You can create a simplified version of `new-paper` (with advisory text and
+example figures and tables removed) using the `copy_new_paper.py` Python script.
+Assuming you have Python 3 installed run the following command at the command
+line, from the directory where you have cloned `new-paper`. 
+
+```
+python3 copy_new_paper.py ../REPONAME
+```
+
+Where "REPONAME" is the name of your paper's repository. This will place the
+files in a directory of the same name at the same directory level where you
+cloned `new-paper` (change the `../` to put it someplace else on your file
+system). 
+
+## Naming Your Repository
+
+In terms of the name of your repository, choose one that is indicative of the
+paper's *research content*, rather than the conference venue or journal you
+intend to submit it to. For example, "search-based-testability" is a better name
+than "icse2020". This is because you may decide later to submit your work to a
+different venue. Or, your work may not be accepted to the first venue you submit
+to, and you may need to revise your paper and submit it to another. In either
+case, the original venue name will no longer be a suitable choice of name for
+your repository.
+
+For the same reasons as those
+[detailed later](#file-and-directory-naming--use-kebab-case), choose a name formatted
+in "kebab-case" (i.e., all lower case with hyphens as word separators).
+
+GitHub repositories can be re-named at any time. To do this, go the "Settings" tab.
+Note that you may need to reclone the repository on your local machine after doing
+this.
+
+## Setting Up Your Repository
+
+It's now time to ensure your paper directory is a Git repository that lives
+somewhere other than just on your machine. This is not just for version control,
+and so that others can work collaboratively with you, but also so that your work
+is backed up!
+
+We're going to assume you have an account on GitHub that can create private
+repositories. Go to your account and create a new repository with the name you
+have chosen for it. Ensure the repository is set to private. You don't need to add a
+README file at this stage or a `.gitignore` (one exists in `new-paper`), or set
+a license. Click "Create repository".
+
+Now go back to the directory where you just instructed the Python script to copy
+the contents of `new-paper` to, and type the following commands, where `USERNAME`
+is your user or organisation name, and `REPONAME` is your repository name:
+
+```
+git init
+git branch -m main
+git add *
+git add .gitignore
+git commit -m "First commit"
+git remote add origin git@github.com:USERNAME/REPONAME.git
+git push -u origin main
+```
+
+... and you're done!
+
+## Setting up Your Writing Environment
+
+I suggest you set up a development environment similar to one that you'd use for
+developing software, but which will automatically compile your LaTeX and build
+a PDF.
+
+There are plenty of tools around to assist you in this process, and I have used
+a number over the years. Currently, I use [Visual Studio
+Code](https://code.visualstudio.com/) (VSCode for short), which is free and
+open source, with the [LaTeX
+workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+plugin. Among other things this plugin automatically builds my PDF every time I
+make a change to a `.tex` source file. With VSCode, I can display the PDF in an
+editor tab so that I can see it while I am working on it, and have it update
+while I edit it. Others prefer more "traditional" solutions such as Vim or
+Emacs, but you can use whatever you prefer, and – so long as you do not [add any
+settings or backup files produced by your editor to the
+repository](#what-shouldnt-be-in-your-paper-repository) – your personal choice
+can co-exist alongside that of your collaborators.
+
+Whatever environment you use, ensure you have a spell checker installed! (Again,
+VSCode has a plugin for one of these.) You will also find various other plugins
+useful, for example those that manage tabs/spaces and remove trailing spaces in
+your source text files.

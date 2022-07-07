@@ -36,6 +36,7 @@ os.remove("LICENSE")
 os.remove("README.md")
 
 # remove certain directories
+shutil.rmtree(".git")
 shutil.rmtree("figures")
 shutil.rmtree("graphics")
 shutil.rmtree("table-data")
