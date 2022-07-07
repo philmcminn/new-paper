@@ -8,8 +8,8 @@
   Setup](#5-getting-your-own-paper-and-its-repository-setup)
   * [Choosing a Name For Your Repository](#choosing-a-name-for-your-repository)
   * [Setting Up Your Repository](#setting-up-your-repository)
-* [6. What Shouldn't Be in Your Paper
-  Repository](#6-what-shouldnt-be-in-your-paper-repository-but-a-different-one-instead)
+* [6. What _Shouldn't_ Be in Your Paper's
+  Repository](#6-what-shouldnt-be-in-your-papers-repository)
   * [Types of Files That You Should Set Git to
     Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate
@@ -168,7 +168,7 @@ git push -u origin main
 
 ... and you're done!
 
-## 6. What _Shouldn't_ Be in Your Paper Repository (But A Different One Instead)
+## 6. What _Shouldn't_ Be in Your Paper's Repository
 
 You can exclude files from the repository using the provided `.gitignore`file as
 a starting point. This file lives in the repository's root directory, and
