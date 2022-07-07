@@ -12,10 +12,10 @@
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
-* [Further Advice](#further-advice)
+  * [Further Advice](#further-advice)
   * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
 
-## Introduction
+## 1. Introduction
 
 This repository is designed to be used by new researchers (e.g., PhD and Masters
 students) when they want to start writing a new research paper for a software
@@ -33,13 +33,13 @@ technique that have empirically evaluated. If you want to write a purely
 empirical paper, you may need to tweak the sections. However, it is not really
 suitable for a paper that involves only proofs and no empirical study.
 
-## Installing LaTeX
+## 2. Installing LaTeX
 
 First of all, you need to ensure LaTeX is setup on your machine. Checkout
 [https://www.latex-project.org/get/] as to how to do it for your operating
 system.
 
-## Building Papers at the Terminal
+## 3. Building Papers at the Terminal
 
 Even if you're using an integrated development environment to compile your paper,
 you will probably at some point need to compile the paper from a terminal window.
@@ -73,7 +73,7 @@ using the [instructions found later in this README file]().
 First of all though, we're going to cover some general advice, including how to
 structure paper repositories, and some general writing tips. 
 
-## File and Directory Naming – use `kebab-case`
+## 4. File and Directory Naming – use `kebab-case`
 
 Over time, you will be adding your own files and content to your paper. The
 various files and examples in this repository demonstrate how to go about doing
@@ -94,7 +94,7 @@ lower-cased, with words separated with hyphens. Using lower-casing and not using
 spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
 
-## What Shouldn't Be in Your Paper Repository
+## 5. What Shouldn't Be in Your Paper Repository
 
 You can exclude files from the repository using the provided `.gitignore`file as
 a starting point. This file lives in the repository's root directory, and
@@ -127,7 +127,7 @@ data, consider including it in the paper repository as a separate
 instead. A Git submodule is just a way of using some other Git repository in
 another, but where the two repositories can still be maintained independently.
 
-## General Writing Tips
+## 6. General Writing Tips
 
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out! They also discuss
@@ -255,7 +255,7 @@ Furthermore, if you get really stuck, then it is not hard to use the "Find"
 feature of a good text editor, so long as you include all the relevant files in
 the scope of the search.
 
-## Getting Your Own Paper and Its Repository Set up
+## 7. Getting Your Own Paper and Its Repository Set up
 
 You can create a simplified version of `new-paper` (with advisory text and
 example figures and tables removed) using the `copy_new_paper.py` Python script.
@@ -271,7 +271,7 @@ files in a directory of the same name at the same directory level where you
 cloned `new-paper` (change the `../` to put it someplace else on your file
 system). 
 
-## Naming Your Repository
+### Naming Your Repository
 
 In terms of the name of your repository, choose one that is indicative of the
 paper's *research content*, rather than the conference venue or journal you
@@ -290,7 +290,7 @@ GitHub repositories can be re-named at any time. To do this, go the "Settings" t
 Note that you may need to reclone the repository on your local machine after doing
 this.
 
-## Setting Up Your Repository
+### Setting Up Your Repository
 
 It's now time to ensure your paper directory is a Git repository that lives
 somewhere other than just on your machine. This is not just for version control,
@@ -319,7 +319,7 @@ git push -u origin main
 
 ... and you're done!
 
-## Setting up Your Writing Environment
+## 8. Setting up Your Writing Environment
 
 I suggest you set up a development environment similar to one that you'd use for
 developing software, but which will automatically compile your LaTeX and build
