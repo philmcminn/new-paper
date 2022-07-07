@@ -1,0 +1,75 @@
+% If you wish to use this format, you need to copy llncs.cls and splncs04.bst 
+% found in this directory to the top level directory, as unlike the other 
+% formats, they are not included in most LaTeX distributions by default.
+
+% Additionally, the institution numbers need aligning with the actual
+% numbers assigned in the preabstract command (uncomment \inst... and 
+% add the correct numbers)
+
+\documentclass{llncs}
+
+% Pre-abstract formatting
+\newcommand{\preabstract}{
+
+    % Set the title
+    \title{\papertitle}
+
+    % Define the author block
+    \author{
+        \ifcsname doubleblind\endcsname
+            \doubleblind
+        \else
+            \firstauthor%\inst{1}
+            \ifcsname collaboratorone\endcsname
+                \and
+                \collaboratorone%\inst{2}
+            \fi
+            \ifcsname collaboratortwo\endcsname
+                \and
+                \collaboratortwo%\inst{3}
+            \fi
+            \ifcsname collaboratorthree\endcsname
+                \and
+                \collaboratorthree%\inst{4}
+            \fi
+            \ifcsname lastauthor\endcsname
+                \and
+                \lastauthor%\inst{5}
+            \fi
+        \fi        
+    }
+
+    % Define the institution block
+    \institute{
+        \ifcsname doubleblind\endcsname
+        \else
+            \firstauthoraffiliation
+            \ifcsname collaboratorone\endcsname
+                \and
+                \collaboratoroneaffiliation
+            \fi
+            \ifcsname collaboratortwo\endcsname
+                \and
+                \collaboratortwoaffiliation
+            \fi
+            \ifcsname collaboratorthree\endcsname
+                \and
+                \collaboratorthreeaffiliation
+            \fi
+            \ifcsname lastauthor\endcsname
+                \and
+                \lastauthoraffiliation
+            \fi
+        \fi         
+    }
+
+    % Format the title
+    \maketitle
+
+    % Set the bibliography style
+    \bibliographystyle{splncs04}
+}
+
+% Post-abstract formatting
+\newcommand{\postabstract}{
+}
