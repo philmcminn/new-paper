@@ -4,10 +4,14 @@
 * [Naming Your Repository](#naming-your-repository)
 * [Setting up Your Writing Environment](#setting-up-your-writing-environment)
 * [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
-* [File and Directory Naming – Use `kebab-case`](#file-and-directory-naming--use-kebab-case)
-* [What Shouldn't Be in Your Paper Repository](#what-shouldnt-be-in-your-paper-repository)
-  * [Types of Files That You Should Set Git to Ignore](#types-of-files-that-you-should-set-git-to-ignore)
-  * [Put All Experimental Materials in a Separate Repository](#put-all-experimental-materials-in-a-separate-repository)
+* [File and Directory Naming – Use
+  `kebab-case`](#file-and-directory-naming--use-kebab-case)
+* [What Shouldn't Be in Your Paper
+  Repository](#what-shouldnt-be-in-your-paper-repository)
+  * [Types of Files That You Should Set Git to
+    Ignore](#types-of-files-that-you-should-set-git-to-ignore)
+  * [Put All Experimental Materials in a Separate
+    Repository](#put-all-experimental-materials-in-a-separate-repository)
 * [General Writing Tips](#general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
@@ -41,12 +45,13 @@ system.
 
 ## 3. Building Papers at the Terminal
 
-Even if you're using an integrated development environment to compile your paper,
-you will probably at some point need to compile the paper from a terminal window.
-If you're working with me, then I don't mandate that you use a Make file or any 
-particular build tool, but I'm happy if that's what you want to do – so long as 
-you leave some instructions if they're needed. Some students just include a build 
-script in the root directory of their repository for convenience.
+Even if you're using an integrated development environment to compile your
+paper, you will probably at some point need to compile the paper from a terminal
+window. If you're working with me, then I don't mandate that you use a Make file
+or any particular build tool, but I'm happy if that's what you want to do – so
+long as you leave some instructions if they're needed. Some students just
+include a build script in the root directory of their repository for
+convenience.
 
 The root file is `paper.tex`. To compile the example and produce a PDF file you
 will need to run `pdflatex` as follows:
@@ -81,11 +86,11 @@ that.
 
 Please ensure you stick to the coding standards described in the comments of the
 paper. This helps ensure everything is consistent, that other people working
-with you (i.e., me, and possibly other collaborators) can find things easily (such as a
-figure file referenced using a certain label in a section file), and in general
-helps uphold the [Principle of Least
-Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
-for others when working on the paper.
+with you (i.e., me, and possibly other collaborators) can find things easily
+(such as a figure file referenced using a certain label in a section file), and
+in general helps uphold the [Principle of Least
+Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) for
+others when working on the paper.
 
 In particular, the repository opts to use
 "[kebab-case](https://wiki.c2.com/?KebabCase)" for naming files and directories.
@@ -116,16 +121,16 @@ PDF file (`paper.pdf`). You should also avoid committing:
 
 ### Put All Experimental Materials in a Separate Repository
 
-You should use a *separate* Git repository for all of your experimental data
-and materials. That is, keep your paper repository for LaTeX files only,
-or graphics/TikZ files etc. that are directly involved in the production
-of your paper.
+You should use a *separate* Git repository for all of your experimental data and
+materials. That is, keep your paper repository for LaTeX files only, or
+graphics/TikZ files etc. that are directly involved in the production of your
+paper.
 
 If the build of your paper needs to generate tables or figures from your raw
-data, consider including it in the paper repository as a separate
-[Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
-instead. A Git submodule is just a way of using some other Git repository in
-another, but where the two repositories can still be maintained independently.
+data, consider including it in the paper repository as a separate [Git
+submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) instead. A Git
+submodule is just a way of using some other Git repository in another, but where
+the two repositories can still be maintained independently.
 
 ## 6. General Writing Tips
 
@@ -204,14 +209,17 @@ There are a number of good resources on the web, that you should check out too.
 
 See, the following links, for example:
 
-* [Advice for Writing LaTeX Documents](https://github.com/dspinellis/latex-advice),
-  extensive guidance on LaTeX style, by Diomidis Spinellis.
+* [Advice for Writing LaTeX
+  Documents](https://github.com/dspinellis/latex-advice), extensive guidance on
+  LaTeX style, by Diomidis Spinellis.
 
-* [Things I Keep Repeating About Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/),
+* [Things I Keep Repeating About
+  Writing](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/),
   an excellent blog post by Claire Le Goues that covers more aspects and tips
   related to writing style than covered here.
 
-* [My top ten presentation issues in other's papers](https://andreas-zeller.blogspot.com/2013/04/my-top-ten-presentation-issues-in.html),
+* [My top ten presentation issues in other's
+  papers](https://andreas-zeller.blogspot.com/2013/04/my-top-ten-presentation-issues-in.html),
   a collection of bug-bears in papers found by Andreas Zeller while reviewing
   papers, each of which you should avoid!
 
@@ -219,29 +227,36 @@ See, the following links, for example:
   a good and detailed guide to every punctuation symbol in English, and when to
   use it. Covers differences in American usages.
 
-There are some popular text books that are worth looking at as well (you're welcome
-to borrow them from me), these include:
+There are some popular text books that are worth looking at as well (you're
+welcome to borrow them from me), these include:
 
-* [BUGS in Writing: A Guide to Debugging Your Prose](https://www.goodreads.com/book/show/601222.Bugs_in_Writing), by Lyn Dupre.
+* [BUGS in Writing: A Guide to Debugging Your
+  Prose](https://www.goodreads.com/book/show/601222.Bugs_in_Writing), by Lyn
+  Dupre.
 
-* [Writing for Computer Science](https://www.goodreads.com/book/show/117973.Writing_for_Computer_Science), by Justin Zobel.
+* [Writing for Computer
+  Science](https://www.goodreads.com/book/show/117973.Writing_for_Computer_Science),
+  by Justin Zobel.
 
 Finally, some good tutorial papers written by Mary Shaw. This are a little old
 now, but the advice in them is still good and relevant!
 
-* [Writing Good Software Engineering Papers.](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf)
-_Proceedings of the International Conference on Software Engineering (ICSE), 2003._
+* [Writing Good Software Engineering
+Papers.](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) _Proceedings of the
+International Conference on Software Engineering (ICSE), 2003._
 
-* [What Makes Good Research In Software Engineering?](https://www.cs.cmu.edu/~Compose/ftp/shaw-fin-etaps.pdf)
-_International Journal of Software Tools for Technology Transfer, vol. 4, no. 1, 2002._
+* [What Makes Good Research In Software
+Engineering?](https://www.cs.cmu.edu/~Compose/ftp/shaw-fin-etaps.pdf)
+_International Journal of Software Tools for Technology Transfer, vol. 4, no. 1,
+2002._
 
 ### What to Do If the Advice Conflicts
 
 Bear in mind that sometimes the advice given is subjective, and hence
-contradictory, in which case you're free to make up your own mind — although
-you may wish to discuss it with your supervisor first! If the route you take 
-has a significant impact on the way you will write or structure your paper, 
-you should discuss and get the agreement of all of your collaborators.
+contradictory, in which case you're free to make up your own mind — although you
+may wish to discuss it with your supervisor first! If the route you take has a
+significant impact on the way you will write or structure your paper, you should
+discuss and get the agreement of all of your collaborators.
 
 For example, this repository chooses to structure papers by splitting its
 content across several files. This is because I think it is better to structure
@@ -263,10 +278,10 @@ Assuming you have Python 3 installed run the following command at the command
 line, from the directory where you have cloned `new-paper`. 
 
 ```
-python3 copy_new_paper.py ../REPONAME
+python3 copy_new_paper.py ../[REPO_NAME]
 ```
 
-Where "REPONAME" is the name of your paper's repository. This will place the
+Where "[REPO_NAME]" is the name of your paper's repository. This will place the
 files in a directory of the same name at the same directory level where you
 cloned `new-paper` (change the `../` to put it someplace else on your file
 system). 
@@ -282,13 +297,13 @@ to, and you may need to revise your paper and submit it to another. In either
 case, the original venue name will no longer be a suitable choice of name for
 your repository.
 
-For the same reasons as those
-[detailed later](#file-and-directory-naming--use-kebab-case), choose a name formatted
-in "kebab-case" (i.e., all lower case with hyphens as word separators).
+For the same reasons as those [detailed
+later](#file-and-directory-naming--use-kebab-case), choose a name formatted in
+"kebab-case" (i.e., all lower case with hyphens as word separators).
 
-GitHub repositories can be re-named at any time. To do this, go the "Settings" tab.
-Note that you may need to reclone the repository on your local machine after doing
-this.
+GitHub repositories can be re-named at any time. To do this, go the "Settings"
+tab. Note that you may need to reclone the repository on your local machine
+after doing this.
 
 ### Setting Up Your Repository
 
@@ -299,13 +314,14 @@ is backed up!
 
 We're going to assume you have an account on GitHub that can create private
 repositories. Go to your account and create a new repository with the name you
-have chosen for it. Ensure the repository is set to private. You don't need to add a
-README file at this stage or a `.gitignore` (one exists in `new-paper`), or set
-a license. Click "Create repository".
+have chosen for it. Ensure the repository is set to private. You don't need to
+add a README file at this stage or a `.gitignore` (one exists in `new-paper`),
+or set a license. Click "Create repository".
 
 Now go back to the directory where you just instructed the Python script to copy
-the contents of `new-paper` to, and type the following commands, where `USERNAME`
-is your user or organisation name, and `REPONAME` is your repository name:
+the contents of `new-paper` to, and type the following commands, where
+`[USERNAME]` is your user or organisation name, and `[REPO_NAME]` is your
+repository name:
 
 ```
 git init
@@ -313,7 +329,7 @@ git branch -m main
 git add *
 git add .gitignore
 git commit -m "First commit"
-git remote add origin git@github.com:USERNAME/REPONAME.git
+git remote add origin git@github.com:[USERNAME]/[REPO_NAME].git
 git push -u origin main
 ```
 
@@ -322,13 +338,13 @@ git push -u origin main
 ## 8. Setting up Your Writing Environment
 
 I suggest you set up a development environment similar to one that you'd use for
-developing software, but which will automatically compile your LaTeX and build
-a PDF.
+developing software, but which will automatically compile your LaTeX and build a
+PDF.
 
 There are plenty of tools around to assist you in this process, and I have used
 a number over the years. Currently, I use [Visual Studio
-Code](https://code.visualstudio.com/) (VSCode for short), which is free and
-open source, with the [LaTeX
+Code](https://code.visualstudio.com/) (VSCode for short), which is free and open
+source, with the [LaTeX
 workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 plugin. Among other things this plugin automatically builds my PDF every time I
 make a change to a `.tex` source file. With VSCode, I can display the PDF in an
