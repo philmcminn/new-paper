@@ -49,6 +49,12 @@ See https://git-scm.com/book/en/v2/Getting-Started-Installing-Git and
 https://www.latex-project.org/get for instructions on how to download and
 install them for your operating system.
 
+You can then clone this repository at the command line with:
+
+```
+git clone https://github.com/philmcminn/new-paper.git
+```
+
 ## 3. Building Papers at the Terminal
 
 Even if you're using an integrated development environment to compile your
