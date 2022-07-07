@@ -1,9 +1,11 @@
 # LaTeX Repository for Writing New Software Engineering Papers with Empirical Evaluations
 
-* [Introduction](#introduction)
-* [Naming Your Repository](#naming-your-repository)
+* [1. Introduction](#1-introduction)
+* [2. Installing LaTeX](#2-installing-latex)
+* [3. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
+* [4. File and Directory Naming](#4-file-and-directory-naming--use-kebab-case)
 * [Setting up Your Writing Environment](#setting-up-your-writing-environment)
-* [Building Your Paper at the Terminal](#building-your-paper-at-the-terminal)
+
 * [File and Directory Naming – Use
   `kebab-case`](#file-and-directory-naming--use-kebab-case)
 * [What Shouldn't Be in Your Paper
@@ -99,40 +101,7 @@ lower-cased, with words separated with hyphens. Using lower-casing and not using
 spaces (i.e., by using hyphens instead) in file and directory names ensures good
 cross-platform compatibility.
 
-## 5. What Shouldn't Be in Your Paper Repository
-
-You can exclude files from the repository using the provided `.gitignore`file as
-a starting point. This file lives in the repository's root directory, and
-already covers some of the file types discussed next, although your particular
-paper may develop to include some more.
-
-### Types of Files That You Should Set Git to Ignore
-
-Firstly, do not commit build files to the repository, in particular the target
-PDF file (`paper.pdf`). You should also avoid committing:
-
-* Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
-
-* Operating system files (e.g., `.DS_Store` on macOS) that can be particularly
-  irritating for users of other systems.
-
-* Editor backup files (e.g., `.bak` files), and editor settings files (e.g.,
-  `.vscode`), if you can avoid them.
-
-### Put All Experimental Materials in a Separate Repository
-
-You should use a *separate* Git repository for all of your experimental data and
-materials. That is, keep your paper repository for LaTeX files only, or
-graphics/TikZ files etc. that are directly involved in the production of your
-paper.
-
-If the build of your paper needs to generate tables or figures from your raw
-data, consider including it in the paper repository as a separate [Git
-submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) instead. A Git
-submodule is just a way of using some other Git repository in another, but where
-the two repositories can still be maintained independently.
-
-## 6. General Writing Tips
+## 5. General Writing Tips
 
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out! They also discuss
@@ -270,7 +239,7 @@ Furthermore, if you get really stuck, then it is not hard to use the "Find"
 feature of a good text editor, so long as you include all the relevant files in
 the scope of the search.
 
-## 7. Getting Your Own Paper and Its Repository Set up
+## 6. Getting Your Own Paper and Its Repository Set up
 
 You can create a simplified version of `new-paper` (with advisory text and
 example figures and tables removed) using the `copy_new_paper.py` Python script.
@@ -334,6 +303,39 @@ git push -u origin main
 ```
 
 ... and you're done!
+
+## 7. What Shouldn't Be in Your Paper Repository
+
+You can exclude files from the repository using the provided `.gitignore`file as
+a starting point. This file lives in the repository's root directory, and
+already covers some of the file types discussed next, although your particular
+paper may develop to include some more.
+
+### Types of Files That You Should Set Git to Ignore
+
+Firstly, do not commit build files to the repository, in particular the target
+PDF file (`paper.pdf`). You should also avoid committing:
+
+* Temporary build files that LaTeX and BibTeX produce (e.g., `paper.aux`, etc.)
+
+* Operating system files (e.g., `.DS_Store` on macOS) that can be particularly
+  irritating for users of other systems.
+
+* Editor backup files (e.g., `.bak` files), and editor settings files (e.g.,
+  `.vscode`), if you can avoid them.
+
+### Put All Experimental Materials in a Separate Repository
+
+You should use a *separate* Git repository for all of your experimental data and
+materials. That is, keep your paper repository for LaTeX files only, or
+graphics/TikZ files etc. that are directly involved in the production of your
+paper.
+
+If the build of your paper needs to generate tables or figures from your raw
+data, consider including it in the paper repository as a separate [Git
+submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) instead. A Git
+submodule is just a way of using some other Git repository in another, but where
+the two repositories can still be maintained independently.
 
 ## 8. Setting up Your Writing Environment
 
