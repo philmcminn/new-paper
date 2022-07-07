@@ -86,7 +86,8 @@ pdflatex paper
 
 Each section in `new-paper` provides advice as to how to go about writing it.
 This advice can be deleted or commented out to make way for your own content,
-using the [instructions found later in this README file]().
+using the [instructions found later in this README
+file](#5-getting-your-own-paper-and-its-repository-setup).
 
 First of all though, we're going to cover some general advice, including how to
 structure paper repositories, and some general writing tips. 
