@@ -73,9 +73,9 @@ will need to run `pdflatex` as follows:
 pdflatex paper
 ```
 
-Later on (and not discussed further here) you will have BibTeX file(s)
-containing your references, and you'll need to run `pdflatex` a couple of times
-to resolve all of the references properly in the document:
+Later down the line (and not discussed further here) you will have BibTeX
+file(s) containing your references, and you'll need to run `pdflatex` a couple
+of times to resolve all of the references properly in the document:
 
 ```
 pdflatex paper
