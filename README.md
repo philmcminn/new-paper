@@ -166,7 +166,7 @@ git push -u origin main
 
 ... and you're done!
 
-## 6. What Shouldn't Be in Your Paper Repository
+## 6. What _Shouldn't_ Be in Your Paper Repository (But Another One Instead)
 
 You can exclude files from the repository using the provided `.gitignore`file as
 a starting point. This file lives in the repository's root directory, and
