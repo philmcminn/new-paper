@@ -112,7 +112,7 @@ line, from the directory where you have cloned `new-paper`.
 python3 copy_new_paper.py ../[REPO_NAME]
 ```
 
-Where "`[REPO_NAME]`" is the name of your paper's repository. This will place the
+Where `[REPO_NAME]` is the name of your paper's repository. This will place the
 files in a directory of the same name at the same directory level where you
 cloned `new-paper` (change the `../` to put it someplace else on your file
 system). 
