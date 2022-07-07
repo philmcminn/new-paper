@@ -12,6 +12,7 @@ import os
 import sys
 import shutil
 
+# parse arguments and resolve paths
 if len(sys.argv) < 2:
     sys.exit("USAGE: python3 copy_new_paper.py [TARGET_DIR]")
 
@@ -22,6 +23,7 @@ if len(sys.argv) >= 3 and sys.argv[2] == "-c":
 src_path = os.path.dirname(os.path.realpath(__file__))
 dest_path = sys.argv[1]
 
+# check we're not trying to overwrite something that already exists
 if os.path.isdir(dest_path):
     sys.exit(
         'Target directory "%s" already exists. Delete it first if you want to create a new paper there.'
