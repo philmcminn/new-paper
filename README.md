@@ -7,7 +7,7 @@
 * [5. Getting Your Own Paper and Its Repository
   Setup](#5-getting-your-own-paper-and-its-repository-setup)
 * [6. What Shouldn't Be in Your Paper
-  Repository](#6-what-shouldnt-be-in-your-paper-repository)
+  Repository](#6-what-shouldnt-be-in-your-paper-repository-but-a-different-one-instead)
   * [Types of Files That You Should Set Git to
     Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate
