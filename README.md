@@ -6,6 +6,8 @@
 * [4. File and Directory Naming](#4-file-and-directory-naming--use-kebab-case)
 * [5. Getting Your Own Paper and Its Repository
   Setup](#5-getting-your-own-paper-and-its-repository-setup)
+  * [Choosing a Name For Your Repository](#choosing-a-name-for-your-repository)
+  * [Setting Up Your Repository](#setting-up-your-repository)
 * [6. What Shouldn't Be in Your Paper
   Repository](#6-what-shouldnt-be-in-your-paper-repository-but-a-different-one-instead)
   * [Types of Files That You Should Set Git to
