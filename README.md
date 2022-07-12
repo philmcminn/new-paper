@@ -202,7 +202,7 @@ cross-platform compatibility.
 
 ## 5. What _Shouldn't_ Be in Your Paper's Repository
 
-You can exclude files from the repository using the provided `.gitignore`file as
+You can exclude files from the repository using the provided `.gitignore` file as
 a starting point. This file lives in the repository's root directory, and
 already covers some of the file types discussed next, although your particular
 paper may develop to include some more.
