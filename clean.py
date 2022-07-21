@@ -12,7 +12,7 @@
 #
 # This script can be used to clear out the content in the *.tex files of
 # new-paper and remove example files, allowing you to get started with your own
-# content without having to first remove what's already there. 
+# content without having to first remove what's already there.
 #
 # Run at the command line using `./clean.py` or `python3 clean.py` depending
 # on your OS/setup.
