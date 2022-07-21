@@ -9,18 +9,18 @@
   * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
 * [4. Building Papers at the Terminal](#4-building-papers-at-the-terminal)
 * [5. Sections of the Paper and What Goes In Them](#4-building-papers-at-the-terminal)
-* [5. What _Shouldn't_ Be in Your Paper's
+* [6. What _Shouldn't_ Be in Your Paper's
   Repository](#5-what-shouldnt-be-in-your-papers-repository)
   * [Types of Files That You Should Set Git to
     Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate
     Repository](#put-all-experimental-materials-in-a-separate-repository)
-* [6. Setting up Your Writing
-  Environment](#6-setting-up-your-writing-environment)
+* [7. Setting up Your Writing
+  Environment](7-setting-up-your-writing-environment)
   * [Editor Settings - the `.editorconfig`
     file](#editor-settings---the-editorconfig-file)
   * [Install and Use a Spellchecker](#install-and-use-a-spellchecker)
-* [7. General Writing Tips](#7-general-writing-tips)
+* [8. General Writing Tips](#8-general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
   * [Numbers](#numbers)
@@ -232,7 +232,7 @@ VSCode has a plugin for one of these.) You will also find various other plugins
 useful, for example those that manage tabs/spaces and remove trailing spaces in
 your source text files.
 
-## 7. General Writing Tips
+## 8. General Writing Tips
 
 The text and comments embedded in the `.tex` files of this paper discuss how to
 go about writing each section of the paper. Check them out! They also discuss
