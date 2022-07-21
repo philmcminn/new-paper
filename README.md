@@ -125,12 +125,11 @@ pdflatex paper
 Each section in `new-paper` provides advice as to how to go about writing it.
 This advice can be deleted or commented out to make way for your own content.
 
+### The `clean.py` Script and Its Purpose
+
 Once you've been through this process a few times, feel free to run the Python
 `clean.py` script, which will remove all of this content and all of the example
 files and directories automatically.
-
-Next, we're going to cover some general advice, including how to structure paper
-repositories, and some general writing tips. 
 
 ## 5. What _Shouldn't_ Be in Your Paper's Repository
 

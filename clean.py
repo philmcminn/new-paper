@@ -8,6 +8,15 @@
 # OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 # USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+# Purpose:
+#
+# This script can be used to clear out the content in the *.tex files of
+# new-paper and remove example files, allowing you to get started with your own
+# content without having to first remove what's already there. 
+#
+# Run at the command line using `./clean.py` or `python3 clean.py` depending
+# on your OS/setup.
+
 import os
 import sys
 import shutil
