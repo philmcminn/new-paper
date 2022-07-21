@@ -96,7 +96,7 @@ structure paper repositories, and some general writing tips.
 
 This repository is a _template repository_ meaning that you can use it as a
 starting point for your own paper. Go to
-[https://github.com/philmcminn/new-paper] and click the green button labelled
+https://github.com/philmcminn/new-paper and click the green button labelled
 "Use this template", and follow the instructions on GitHub for creating your own
 repository. (Don't forget to make your new repository private!) 
 
