@@ -5,7 +5,7 @@
 * [3. Getting Your Own Paper and Its Repository
   Setup](#3-getting-your-own-paper-and-its-repository-setup)
   * [Choosing a Name For Your Repository](#choosing-a-name-for-your-repository)
-  * [Setting Up Your Repository](#setting-up-your-repository)
+  * [Cloning and Initialising Your Repository](#cloning-and-initialising-your-repository)
   * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
 * [4. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
 * [5. What _Shouldn't_ Be in Your Paper's
