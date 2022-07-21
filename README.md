@@ -1,5 +1,29 @@
 # LaTeX Repository for Writing New Software Engineering Papers with Empirical Evaluations
 
+* [1. Introduction](#1-introduction)
+* [2. Installing the Software You Will Need: LaTeX and Git](#2-installing-the-software-you-will-need-latex-and-git)
+* [3. Getting Your Own Paper and Its Repository
+  Setup](#3-getting-your-own-paper-and-its-repository-setup)
+  * [Choosing a Name For Your Repository](#choosing-a-name-for-your-repository)
+  * [Setting Up Your Repository](#setting-up-your-repository)
+  * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
+* [4. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
+* [5. What _Shouldn't_ Be in Your Paper's
+  Repository](#5-what-shouldnt-be-in-your-papers-repository)
+  * [Types of Files That You Should Set Git to
+    Ignore](#types-of-files-that-you-should-set-git-to-ignore)
+  * [Put All Experimental Materials in a Separate
+    Repository](#put-all-experimental-materials-in-a-separate-repository)
+* [6. Setting up Your Writing
+  Environment](#6-setting-up-your-writing-environment)
+* [7. General Writing Tips](#7-general-writing-tips)
+  * [Avoid Passive Voice](#avoid-passive-voice)
+  * [British vs American Spelling](#british-vs-american-spelling)
+  * [Numbers](#numbers)
+  * [Further Writing Advice](#further-writing-advice)
+  * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
+
+
 ## 1. Introduction
 
 This repository is designed to be used by researchers (particularly PhD and
@@ -72,7 +96,6 @@ command line with:
 ```
 git clone [URL] 
 ```
-
 ### File and Directory Naming – use `kebab-case`
 
 Over time, you will be adding your own files and content to your paper. The
