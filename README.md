@@ -94,29 +94,11 @@ structure paper repositories, and some general writing tips.
 
 ## 4. Getting Your Own Paper and Its Repository Setup
 
-You can create a simplified version of `new-paper` (with advisory text and
-example figures and tables removed) using the `copy_new_paper.py` Python script.
-Assuming you have Python 3 installed run the following command at the command
-line, from the directory where you have cloned `new-paper`. 
-
-```
-python3 copy_new_paper.py ../[REPO_NAME]
-```
-
-Where `[REPO_NAME]` is the name of your paper's repository. This will place the
-files in a directory of the same name at the same directory level where you
-cloned `new-paper` (change the `../` to put it someplace else on your file
-system).
-
-You can use the `-c` option as follows to create a "clean" version that removes
-all text, comments, and unneeded files from the original new-paper repository.
-This option is useful for when you've written a few papers, and don't need all
-the advisory text – you just want to get started with a brand new paper without
-the clutter:
-
-```
-python3 copy_new_paper.py ../[REPO_NAME] -c
-```
+This repository is a _template repository_ meaning that you can use it as a
+starting point for your own paper. Go to
+[https://github.com/philmcminn/new-paper] and click the green button labelled
+"Use this template", and follow the instructions on GitHub for creating your own
+repository. (Don't forget to make your new repository private!) 
 
 ### Choosing a Name For Your Repository
 
@@ -137,47 +119,11 @@ GitHub repositories can be re-named at any time. To do this, go the "Settings"
 tab. Note that you may need to reclone the repository on your local machine
 after doing this.
 
-### Setting Up Your Repository
+### Cloning and Initialising Your Repository
 
-It's now time to ensure your paper directory is a Git repository that lives
-somewhere other than just on your machine. This is not just for version control,
-and so that others can work collaboratively with you, but also so that your work
-is backed up!
+TO COMPLETE. 
 
-We're going to assume you have an account on GitHub that can create private
-repositories. Go to your account and create a new repository with the name you
-have chosen for it. Ensure the repository is set to private. You don't need to
-add a README file at this stage or a `.gitignore` (one exists in `new-paper`),
-or set a license. Click "Create repository".
-
-Now go back to the directory where you just instructed the Python script to copy
-the contents of `new-paper` to, and issue the following commands to initialise a
-Git repository in that directory, set the branch to `main`, add the files in the
-directory, and finally, make the first commit:
-
-```
-git init
-git branch -m main
-```
-
-The next thing to do is to link this repository up with the one you created on
-GitHub, by issuing the following command, where `[USERNAME]` is your user or
-organisation name, and `[REPO_NAME]` is your repository name:
-
-```
-git remote add origin git@github.com:[USERNAME]/[REPO_NAME].git
-```
-
-Finally, add the files, commit them to the repository, and push the changes to
-GitHub:
-
-```
-git add *
-git add .gitignore
-git commit -m "First commit"
-git push -u origin main
-```
-... and you're done!
+TODO: Update Python script. 
 
 ### File and Directory Naming – use `kebab-case`
 
