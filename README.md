@@ -1,62 +1,100 @@
 # LaTeX Repository for Writing New Software Engineering Papers with Empirical Evaluations
 
-* [1. Introduction](#1-introduction)
-* [2. Installing Git and LaTeX, and Cloning This
-  Repository](#2-installing-git-and-latex-and-cloning-this-repository)
-* [3. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
-* [4. Getting Your Own Paper and Its Repository
-  Setup](#4-getting-your-own-paper-and-its-repository-setup)
-  * [Choosing a Name For Your Repository](#choosing-a-name-for-your-repository)
-  * [Setting Up Your Repository](#setting-up-your-repository)
-  * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
-* [5. What _Shouldn't_ Be in Your Paper's
-  Repository](#5-what-shouldnt-be-in-your-papers-repository)
-  * [Types of Files That You Should Set Git to
-    Ignore](#types-of-files-that-you-should-set-git-to-ignore)
-  * [Put All Experimental Materials in a Separate
-    Repository](#put-all-experimental-materials-in-a-separate-repository)
-* [6. Setting up Your Writing
-  Environment](#6-setting-up-your-writing-environment)
-* [7. General Writing Tips](#7-general-writing-tips)
-  * [Avoid Passive Voice](#avoid-passive-voice)
-  * [British vs American Spelling](#british-vs-american-spelling)
-  * [Numbers](#numbers)
-  * [Further Writing Advice](#further-writing-advice)
-  * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
-
 ## 1. Introduction
 
-This repository is designed to be used by new researchers (e.g., PhD and Masters
-students) when they want to start writing a new research paper for a software
-engineering conference, journal, or an internal report using LaTeX.
+This repository is designed to be used by researchers (particularly PhD and
+Masters students) for writing a new research paper that they want to submit to a
+software engineering conference or journal using LaTeX – or even just to create
+an internal report, such as one that might be required by a PhD thesis
+committee.
 
 It provides a skeleton set of LaTeX files and folders (referred to as
 `new-paper` that you can use to as am example structure in which to write your
 own material, and customise your paper with additional macros.
 
-First though, we're going to go through how to build `new-paper` and some
-general advice on writing papers. 
+This README file talks you through how to create your own paper repository on
+GitHub using this one as a template, how to compile your paper and produce a PDF
+file, along with some general writing and editing advice. 
 
-The format described by `new-paper` assumes that you have researched a new
-technique that have empirically evaluated. If you want to write a purely
-empirical paper, you may need to tweak the sections. However, it is not really
-suitable for a paper that involves only proofs and no empirical study.
+The format described by `new-paper` assumes that you have researched a new kind
+of technique or algorithm that have empirically evaluated. If you want to write
+a purely empirical paper (i.e., where its novelty lies purely in your research
+questions and the corresponding findings) you may need to tweak the sections.
+However, it is not really suitable for a paper that involves only proofs and no
+empirical study.
 
-## 2. Installing Git and LaTeX, and Cloning This Repository
+## 2. Installing the Software You Will Need: LaTeX and Git
 
-First of all, you need to ensure that Git and LaTeX are setup on your machine. 
+First of all, you need to ensure that LaTeX and Git are setup on your machine,
+if they are not already. 
 
 See https://git-scm.com/book/en/v2/Getting-Started-Installing-Git and
 https://www.latex-project.org/get for instructions on how to download and
 install them for your operating system.
 
-You can then clone this repository at the command line with:
+(If you are not already familiar with these tools, it is worth investing some
+time learning about them first before you read any further.)
+
+## 3. Getting Your Own Paper and Its Repository Setup
+
+This repository is a _template repository_ meaning that you can use it as a
+starting point for your own paper. Go to https://github.com/philmcminn/new-paper
+and click the green button labelled "Use this template", and follow the
+instructions on GitHub for creating your own repository. (Don't forget to make
+your new repository private!) 
+
+### Choosing a Name For Your Repository
+
+In terms of the name of your repository, choose one that is indicative of the
+paper's *research content*, rather than the conference venue or journal you
+intend to submit it to. For example, "search-based-testability" is a better name
+than "icse2020". This is because you may decide later to submit your work to a
+different venue. Or, your work may not be accepted to the first venue you submit
+to, and you may need to revise your paper and submit it to another. In either
+case, the original venue name will no longer be a suitable choice of name for
+your repository.
+
+For the same reasons as those [detailed
+later](#file-and-directory-naming--use-kebab-case), choose a name formatted in
+"kebab-case" (i.e., all lower case with hyphens as word separators).
+
+GitHub repositories can be re-named at any time. To do this, go the "Settings"
+tab. Note that you may need to reclone the repository on your local machine
+after doing this.
+
+### Cloning and Initialising Your Repository
+
+Once you have created your repository, you can clone it to your machine. Go to
+your repository's page on GitHub and click the green button labelled "Code". You
+should then be able to copy it's URL, so that you can then clone it at the
+command line with:
 
 ```
-git clone https://github.com/philmcminn/new-paper.git
+git clone [URL] 
 ```
 
-## 3. Building Papers at the Terminal
+### File and Directory Naming – use `kebab-case`
+
+Over time, you will be adding your own files and content to your paper. The
+various files and examples in this repository demonstrate how to go about doing
+that.
+
+Please ensure you stick to the coding standards described in the comments of the
+paper. This helps ensure everything is consistent, that other people working
+with you (i.e., me, and possibly other collaborators) can find things easily
+(such as a figure file referenced using a certain label in a section file), and
+in general helps uphold the [Principle of Least
+Astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) for
+others when working on the paper.
+
+In particular, the repository opts to use
+"[kebab-case](https://wiki.c2.com/?KebabCase)" for naming files and directories.
+All file and directory names following the kebab-case convention are
+lower-cased, with words separated with hyphens. Using lower-casing and not using
+spaces (i.e., by using hyphens instead) in file and directory names ensures good
+cross-platform compatibility.
+
+## 4. Building Papers at the Terminal
 
 Even if you're using an integrated development environment to compile your
 paper, you will probably at some point need to compile the paper from a terminal
@@ -85,71 +123,19 @@ pdflatex paper
 ```
 
 Each section in `new-paper` provides advice as to how to go about writing it.
-This advice can be deleted or commented out to make way for your own content,
-using the [instructions found later in this README
-file](#5-getting-your-own-paper-and-its-repository-setup).
+This advice can be deleted or commented out to make way for your own content.
 
-First of all though, we're going to cover some general advice, including how to
-structure paper repositories, and some general writing tips. 
+Once you've been through this process a few times, feel free to run the Python
+`clean.py` script, which will remove all of this content and all of the example
+files and directories automatically.
 
-## 4. Getting Your Own Paper and Its Repository Setup
-
-This repository is a _template repository_ meaning that you can use it as a
-starting point for your own paper. Go to
-https://github.com/philmcminn/new-paper and click the green button labelled
-"Use this template", and follow the instructions on GitHub for creating your own
-repository. (Don't forget to make your new repository private!) 
-
-### Choosing a Name For Your Repository
-
-In terms of the name of your repository, choose one that is indicative of the
-paper's *research content*, rather than the conference venue or journal you
-intend to submit it to. For example, "search-based-testability" is a better name
-than "icse2020". This is because you may decide later to submit your work to a
-different venue. Or, your work may not be accepted to the first venue you submit
-to, and you may need to revise your paper and submit it to another. In either
-case, the original venue name will no longer be a suitable choice of name for
-your repository.
-
-For the same reasons as those [detailed
-later](#file-and-directory-naming--use-kebab-case), choose a name formatted in
-"kebab-case" (i.e., all lower case with hyphens as word separators).
-
-GitHub repositories can be re-named at any time. To do this, go the "Settings"
-tab. Note that you may need to reclone the repository on your local machine
-after doing this.
-
-### Cloning and Initialising Your Repository
-
-TO COMPLETE. 
-
-TODO: Update Python script. 
-
-### File and Directory Naming – use `kebab-case`
-
-Over time, you will be adding your own files and content to your paper. The
-various files and examples in this repository demonstrate how to go about doing
-that.
-
-Please ensure you stick to the coding standards described in the comments of the
-paper. This helps ensure everything is consistent, that other people working
-with you (i.e., me, and possibly other collaborators) can find things easily
-(such as a figure file referenced using a certain label in a section file), and
-in general helps uphold the [Principle of Least
-Astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) for
-others when working on the paper.
-
-In particular, the repository opts to use
-"[kebab-case](https://wiki.c2.com/?KebabCase)" for naming files and directories.
-All file and directory names following the kebab-case convention are
-lower-cased, with words separated with hyphens. Using lower-casing and not using
-spaces (i.e., by using hyphens instead) in file and directory names ensures good
-cross-platform compatibility.
+Next, we're going to cover some general advice, including how to structure paper
+repositories, and some general writing tips. 
 
 ## 5. What _Shouldn't_ Be in Your Paper's Repository
 
-You can exclude files from the repository using the provided `.gitignore` file as
-a starting point. This file lives in the repository's root directory, and
+You can exclude files from the repository using the provided `.gitignore` file
+as a starting point. This file lives in the repository's root directory, and
 already covers some of the file types discussed next, although your particular
 paper may develop to include some more.
 
@@ -196,8 +182,8 @@ editor tab so that I can see it while I am working on it, and have it update
 while I edit it. Others prefer more "traditional" solutions such as Vim or
 Emacs, but you can use whatever you prefer, and – so long as you do not [add any
 settings or backup files produced by your editor to the
-repository](#types-of-files-that-you-should-set-git-to-ignore) – your personal choice
-can co-exist alongside that of your collaborators.
+repository](#types-of-files-that-you-should-set-git-to-ignore) – your personal
+choice can co-exist alongside that of your collaborators.
 
 Whatever environment you use, ensure you have a spell checker installed! (Again,
 VSCode has a plugin for one of these.) You will also find various other plugins
