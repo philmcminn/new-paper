@@ -16,6 +16,9 @@
     Repository](#put-all-experimental-materials-in-a-separate-repository)
 * [6. Setting up Your Writing
   Environment](#6-setting-up-your-writing-environment)
+  * [Editor Settings - the `.editorconfig`
+    file](#editor-settings---the-editorconfig-file)
+  * [Install and Use a Spellchecker](#install-and-use-a-spellchecker)
 * [7. General Writing Tips](#7-general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
   * [British vs American Spelling](#british-vs-american-spelling)
