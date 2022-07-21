@@ -8,7 +8,9 @@
   * [Cloning and Initialising Your Repository](#cloning-and-initialising-your-repository)
   * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
 * [4. Building Papers at the Terminal](#4-building-papers-at-the-terminal)
-* [5. Sections of the Paper and What Goes In Them](#4-building-papers-at-the-terminal)
+* [5. Sections of the Paper and What Goes In
+  Them](#5-sections-of-the-paper-and-what-goes-in-them)
+  * [The `clean.py` Script and Its Purpose](#the-cleanpy-script-and-its-purpose)
 * [6. What _Shouldn't_ Be in Your Paper's
   Repository](#5-what-shouldnt-be-in-your-papers-repository)
   * [Types of Files That You Should Set Git to
