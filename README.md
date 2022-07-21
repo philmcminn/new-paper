@@ -18,7 +18,7 @@
   * [Put All Experimental Materials in a Separate
     Repository](#put-all-experimental-materials-in-a-separate-repository)
 * [7. Setting up Your Writing
-  Environment](7-setting-up-your-writing-environment)
+  Environment](#7-setting-up-your-writing-environment)
   * [Editor Settings - the `.editorconfig`
     file](#editor-settings---the-editorconfig-file)
   * [Install and Use a Spellchecker](#install-and-use-a-spellchecker)
