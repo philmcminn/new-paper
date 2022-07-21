@@ -7,7 +7,7 @@
   * [Choosing a Name For Your Repository](#choosing-a-name-for-your-repository)
   * [Cloning and Initialising Your Repository](#cloning-and-initialising-your-repository)
   * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
-* [4. Building Papers at the Terminal](#3-building-papers-at-the-terminal)
+* [4. Building Papers at the Terminal](#4-building-papers-at-the-terminal)
 * [5. What _Shouldn't_ Be in Your Paper's
   Repository](#5-what-shouldnt-be-in-your-papers-repository)
   * [Types of Files That You Should Set Git to
