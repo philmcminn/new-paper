@@ -12,7 +12,7 @@
   Them](#5-sections-of-the-paper-and-what-goes-in-them)
   * [The `clean.py` Script and Its Purpose](#the-cleanpy-script-and-its-purpose)
 * [6. What _Shouldn't_ Be in Your Paper's
-  Repository](#5-what-shouldnt-be-in-your-papers-repository)
+  Repository](#6-what-shouldnt-be-in-your-papers-repository)
   * [Types of Files That You Should Set Git to
     Ignore](#types-of-files-that-you-should-set-git-to-ignore)
   * [Put All Experimental Materials in a Separate
