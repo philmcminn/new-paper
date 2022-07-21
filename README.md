@@ -8,6 +8,7 @@
   * [Cloning and Initialising Your Repository](#cloning-and-initialising-your-repository)
   * [File and Directory Naming](#file-and-directory-naming--use-kebab-case)
 * [4. Building Papers at the Terminal](#4-building-papers-at-the-terminal)
+* [5. Sections of the Paper and What Goes In Them](#4-building-papers-at-the-terminal)
 * [5. What _Shouldn't_ Be in Your Paper's
   Repository](#5-what-shouldnt-be-in-your-papers-repository)
   * [Types of Files That You Should Set Git to
@@ -149,16 +150,21 @@ pdflatex paper
 pdflatex paper
 ```
 
-Each section in `new-paper` provides advice as to how to go about writing it.
-This advice can be deleted or commented out to make way for your own content.
+## 5. Sections of the Paper and What Goes In Them
+
+Each .tex file in `new-paper` corresponds to part of the paper and includes
+advice as to how to go about writing it. It should be obvious from the directory
+names as to what goes in each, but the .tex files explains these also. 
+
+You can delete or comment out this advice to make way for your own content.
 
 ### The `clean.py` Script and Its Purpose
 
 Once you've been through this process a few times, feel free to run the Python
-`clean.py` script, which will remove all of this content and all of the example
+`clean.py` script, which will remove all the pre-written advice and all of the example
 files and directories automatically.
 
-## 5. What _Shouldn't_ Be in Your Paper's Repository
+## 6. What _Shouldn't_ Be in Your Paper's Repository
 
 You can exclude files from the repository using the provided `.gitignore` file
 as a starting point. This file lives in the repository's root directory, and
@@ -191,7 +197,7 @@ submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) instead. A Git
 submodule is just a way of using some other Git repository in another, but where
 the two repositories can still be maintained independently.
 
-## 6. Setting up Your Writing Environment
+## 7. Setting up Your Writing Environment
 
 I suggest you set up a development environment similar to one that you'd use for
 developing software, but which will automatically compile your LaTeX and build a
