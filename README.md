@@ -96,6 +96,7 @@ command line with:
 ```
 git clone [URL] 
 ```
+
 ### File and Directory Naming – use `kebab-case`
 
 Over time, you will be adding your own files and content to your paper. The
@@ -202,10 +203,20 @@ plugin. Among other things this plugin automatically builds my PDF every time I
 make a change to a `.tex` source file. With VSCode, I can display the PDF in an
 editor tab so that I can see it while I am working on it, and have it update
 while I edit it. Others prefer more "traditional" solutions such as Vim or
-Emacs, but you can use whatever you prefer, and – so long as you do not [add any
-settings or backup files produced by your editor to the
+Emacs, but you can use whatever you prefer.
+
+### Editor Settings - the `.editorconfig` file
+The repository provides an `.editorconfig` file (see https://editorconfig.org on
+how to use with your text editor), which sets out my own preferences in terms of
+whether to uses tabs or spaces (spoiler: it's spaces), indent sizes, etc. 
+
+In Latex these settings are perhaps less important, and your personal
+preferences may differ. This is fine, just don't [add any settings or backup
+files produced by your editor to the
 repository](#types-of-files-that-you-should-set-git-to-ignore) – your personal
 choice can co-exist alongside that of your collaborators.
+
+### Install and Use a Spellchecker
 
 Whatever environment you use, ensure you have a spell checker installed! (Again,
 VSCode has a plugin for one of these.) You will also find various other plugins
