@@ -39,7 +39,7 @@ an internal report, such as one that might be required by a PhD thesis
 committee.
 
 It provides a skeleton set of LaTeX files and folders (referred to as
-`new-paper` that you can use to as am example structure in which to write your
+`new-paper`) that you can use to as an example structure in which to write your
 own material, and customise your paper with additional macros.
 
 This README file talks you through how to create your own paper repository on
