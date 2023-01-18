@@ -1,1 +1,10 @@
 % Custom commands used by the paper
+
+% Suppress details if double-blind, else write them out
+\newcommand{\ifnotdoubleblind}[1] {
+    \ifcsname doubleblind\endcsname
+        \doubleblind
+    \else 
+      #1 
+    \fi
+}
