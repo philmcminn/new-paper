@@ -273,14 +273,17 @@ checker! Many text editors enable you to install a plugin so that you can see
 any misspelled words while you're editing your document.
 
 British English or American English? Check with your supervisor if there is a
-potential decision to make here. If you're working with me, then I'm fine with
-whichever, so long as everyone working on the paper knows (and doesn't keep
-changing the spellings from one version of English to another).
+potential decision to make here. If you're planning to submit your thesis in
+Britain, it makes sense to use British English, so that you can re-use the text
+from your paper without needing to change all the spellings before submitting
+it. Some examiners will be picky about this, or may (hopefully unduly) suspect
+the text has come from other sources.
 
-For some publications, particularly American journals, the publisher will change
-all British spellings to American anyway (e.g. IEEE, ACM). I often just go with
-American even though I'm a Brit, because the spellings are often shorter – every
-character of space in a paper is important! :-)
+But despite a preference for British English, it doesn't really matter, so long
+as everyone working on the paper knows (and doesn't keep changing the spellings
+from one version of English to another!). For some publications, particularly
+American journals, the publisher will change all British spellings to American
+anyway (e.g. IEEE, ACM).
 
 Note that there are some words that are still used in every day British English
 that have disappeared from American English. These words sound odd and quaint to
