@@ -279,12 +279,12 @@ from your paper without needing to change all the spellings before submitting
 it. Some examiners will be picky about this, or may (hopefully unduly) suspect
 the text has come from other sources.
 
-But despite a preference for British English, it doesn't really matter, so long
-as everyone working on the paper knows (and doesn't keep changing the spellings
-from one version of English to another!). Note that some publishers
+So long as everyone working on the paper knows which version of English the
+paper is using (and doesn't keep changing the spellings from one version of
+English to another!), it doesn't really matter, unless you are planning to
+re-use the text in your thesis as mentioned above. Note that some journals
 (particularly American ones, obviously) will change all British spellings to
-American anyway for the final published (a.k.a. "camera-ready") version of the
-paper.
+American for the final published (a.k.a. "camera-ready") version of the paper.
 
 Also note that there are some words that are still used in every day British
 English that have disappeared from American English. These words sound odd and
