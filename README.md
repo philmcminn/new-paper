@@ -281,15 +281,16 @@ the text has come from other sources.
 
 But despite a preference for British English, it doesn't really matter, so long
 as everyone working on the paper knows (and doesn't keep changing the spellings
-from one version of English to another!). For some publications, particularly
-American journals, the publisher will change all British spellings to American
-anyway (e.g. IEEE, ACM).
+from one version of English to another!). Note that some publishers
+(particularly American ones, obviously) will change all British spellings to
+American anyway for the final published (a.k.a. "camera-ready") version of the
+paper.
 
-Note that there are some words that are still used in every day British English
-that have disappeared from American English. These words sound odd and quaint to
-the American ear (so you may find them silently corrected in your paper,
-especially if working with an American collaborator). Top of this list is the
-word "whilst". Just use "while" instead.
+Also note that there are some words that are still used in every day British
+English that have disappeared from American English. These words sound odd and
+quaint to the American ear (so you may find them silently corrected in your
+paper, especially if working with an American collaborator). Top of this list is
+the word "whilst". Just use "while" instead.
 
 ### Numbers
 
