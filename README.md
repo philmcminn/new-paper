@@ -295,8 +295,8 @@ mind the reviewer. This may or may not be a good thing.
 
 Finally, if you're working on a journal paper, note that some journals (particularly
 American ones, obviously) will change all British spellings to American for the
-final published (a.k.a. "camera-ready") version of the paper regardless of your
-choice. 
+final published (a.k.a. "camera-ready") version of the paper, regardless of your
+original choice. 
 
 At the end of the day, the most important thing is that everyone working on
 the paper knows which version of English the paper is using (and doesn't keep
