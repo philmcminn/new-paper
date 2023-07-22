@@ -284,14 +284,17 @@ from sources other than you.
 
 However, if you're planning to submit your paper to a conference that has
 double-anonymous ("double-blind") reviewing. This is where you don't know the
-identities of the reviewers (as usual), but the reviewers don't know who the
-authors of the work either. So you shouldn't put the names of authors in your
-paper or reveal any other details that the reviewers may be able to use to
-identify you as the origin of the work. In this situation you might opt to _use
-American English_. While I have not seen that British English is in and of
-itself _against_ the rules of conferences that employ double-anonymous
-reviewing, it might help narrow down the potential source of the work in the
-mind the reviewer. This may or may not be a good thing.
+identities of the reviewers (as usual), but the reviewers don't know who _you_
+are - the authors of the work - either. In practice, this means you shouldn't
+put the names of authors in your paper or reveal any other details that the
+reviewers may be able to use to identify who you are as the origin of the work.
+In this situation you might opt to _use American English_. While I have not seen
+the use of British English being in and of itself _against_ the rules of
+conferences that employ double-anonymous reviewing, its use may help narrow down
+the potential source of the work in the mind the reviewer (_"... ah this must be
+John Smith, who's the only one who works on mutational search-based self-driving
+causal large language models for software testing in Britain.."_). Depending on
+the context, this may or may not be a good thing!
 
 Finally, if you're working on a journal paper, note that some journals (particularly
 American ones, obviously) will change all British spellings to American for the
