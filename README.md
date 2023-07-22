@@ -282,7 +282,7 @@ potentially needing to change all the spellings later. Some PhD examiners will
 be picky about this, and/or may (hopefully unduly) suspect the text has come
 from sources other than you.
 
-However, if you're planning to submit your paper to a conference that has
+Consider again, however, if you're planning to submit your paper to a conference that has
 double-anonymous ("double-blind") reviewing. This is where you don't know the
 identities of the reviewers (as usual), but the reviewers don't know who _you_
 are - the authors of the work - either. In practice, this means you shouldn't
