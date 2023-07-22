@@ -24,7 +24,7 @@
   * [Install and Use a Spellchecker](#install-and-use-a-spellchecker)
 * [8. General Writing Tips](#8-general-writing-tips)
   * [Avoid Passive Voice](#avoid-passive-voice)
-  * [British vs American Spelling](#british-vs-american-spelling)
+  * [British or American Spelling?](#british-or-american-spelling)
   * [Numbers](#numbers)
   * [Further Writing Advice](#further-writing-advice)
   * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
@@ -266,7 +266,7 @@ the "zombies" tip comes in useful: If you can add "by zombies" after the verb in
 the sentence, and it still makes grammatical sense, you have a sentence written
 in passive voice.
 
-### British vs American Spelling
+### British or American Spelling?
 
 As I remarked earlier in these instructions, please ensure you use a spell
 checker! Many text editors enable you to install a plugin so that you can see
