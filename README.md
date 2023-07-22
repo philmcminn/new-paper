@@ -276,8 +276,8 @@ British English or American English? It may seem obvious to you, but it's best
 to consult with your supervisor first. Here are some aspects you may want
 to consider when making this decision in a reasoned, non-patriotic fashion!
 
-If you're planning to submit your thesis in Britain, it makes sense to _use
-British English_, so that you can re-use the text from your paper without
+Firstly, if you're planning to submit your thesis in Britain, it makes sense to
+_use British English_, so that you can re-use the text from your paper without
 potentially needing to change all the spellings later. Some PhD examiners will
 be picky about this, and/or may (hopefully unduly) suspect the text has come
 from sources other than you.
