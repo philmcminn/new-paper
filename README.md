@@ -306,9 +306,8 @@ Also, bear in mind that it's not just about spelling but also word choice, since
 there are some words that are still used in every day British English that have
 disappeared from American English. These words sound odd and quaint to the
 American ear (so you may find them silently corrected in your paper, especially
-if working with an American collaborator). Top of the annoyance list to my
-American colleagues is the word "whilst". Use "while" instead. (It just
-sounds better anyway, IMO.)
+if working with an American collaborator). Top of the annoyance list appears to
+be the word "whilst". Use "while" instead. (It just sounds better anyway, IMO.)
 
 ### Numbers
 
