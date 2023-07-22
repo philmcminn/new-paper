@@ -298,9 +298,9 @@ American ones, obviously) will change all British spellings to American for the
 final published (a.k.a. "camera-ready") version of the paper, regardless of your
 original choice. 
 
-At the end of the day, the most important thing is that everyone working on
-the paper knows which version of English the paper is using (and doesn't keep
-changing the spellings from one version of English to another!).
+At the end of the day, the most important thing is that everyone working on the
+paper knows and agrees on which version of English the paper is using (and
+doesn't keep changing the spellings from one version of English to another!).
 
 Also, bear in mind that it's not just about spelling but also word choice, since
 there are some words that are still used in every day British English that have
