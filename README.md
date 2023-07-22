@@ -272,25 +272,43 @@ As I remarked earlier in these instructions, please ensure you use a spell
 checker! Many text editors enable you to install a plugin so that you can see
 any misspelled words while you're editing your document.
 
-British English or American English? Check with your supervisor if there is a
-potential decision to make here. If you're planning to submit your thesis in
-Britain, it makes sense to use British English, so that you can re-use the text
-from your paper without needing to change all the spellings before submitting
-it. Some examiners will be picky about this, or may (hopefully unduly) suspect
-the text has come from other sources.
+British English or American English? It may seem obvious to you, but it's best
+to consult with your supervisor first. Here are some aspects you may want
+to consider when making this decision in a reasoned, non-patriotic fashion!
 
-So long as everyone working on the paper knows which version of English the
-paper is using (and doesn't keep changing the spellings from one version of
-English to another!), it doesn't really matter, unless you are planning to
-re-use the text in your thesis as mentioned above. Note that some journals
-(particularly American ones, obviously) will change all British spellings to
-American for the final published (a.k.a. "camera-ready") version of the paper.
+If you're planning to submit your thesis in Britain, it makes sense to _use
+British English_, so that you can re-use the text from your paper without
+potentially needing to change all the spellings later. Some PhD examiners will
+be picky about this, and/or may (hopefully unduly) suspect the text has come
+from sources other than you.
 
-Also note that there are some words that are still used in every day British
-English that have disappeared from American English. These words sound odd and
-quaint to the American ear (so you may find them silently corrected in your
-paper, especially if working with an American collaborator). Top of this list is
-the word "whilst". Just use "while" instead.
+However, if you're planning to submit your paper to a conference that has
+double-anonymous ("double-blind") reviewing. This is where you don't know the
+identities of the reviewers (as usual), but the reviewers don't know who the
+authors of the work either. So you shouldn't put the names of authors in your
+paper or reveal any other details that the reviewers may be able to use to
+identify you as the origin of the work. In this situation you might opt to _use
+American English_. While I have not seen that British English is in and of
+itself _against_ the rules of conferences that employ double-anonymous
+reviewing, it might help narrow down the potential source of the work in the
+mind the reviewer. This may or may not be a good thing.
+
+Finally, if you're working on a journal paper, note that some journals (particularly
+American ones, obviously) will change all British spellings to American for the
+final published (a.k.a. "camera-ready") version of the paper regardless of your
+choice. 
+
+At the end of the day, the most important thing is that everyone working on
+the paper knows which version of English the paper is using (and doesn't keep
+changing the spellings from one version of English to another!).
+
+Also, bear in mind that it's not just about spelling but also word choice, since
+there are some words that are still used in every day British English that have
+disappeared from American English. These words sound odd and quaint to the
+American ear (so you may find them silently corrected in your paper, especially
+if working with an American collaborator). Top of the annoyance list to my
+American colleagues is the word "whilst". Use "while" instead. (It just
+sounds better anyway, IMO.)
 
 ### Numbers
 
