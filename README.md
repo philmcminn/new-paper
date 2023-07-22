@@ -294,7 +294,7 @@ conferences that employ double-anonymous reviewing, its use may help narrow down
 the potential source of the work in the mind the reviewer (_"... ah this must be
 John Smith, who's the only one who works on mutational search-based self-driving
 causal large language models for software testing in England"_). Depending on
-the context, this may or may not be a good thing!
+the context, being identified in this way may or may not be a good thing!
 
 Finally, if you're working on a journal paper, note that some journals (particularly
 American ones, obviously) will change all British spellings to American for the
