@@ -88,9 +88,11 @@ For the same reasons as those [detailed
 later](#file-and-directory-naming--use-kebab-case), choose a name formatted in
 "kebab-case" (i.e., all lower case with hyphens as word separators).
 
-GitHub repositories can be re-named at any time. To do this, go the "Settings"
-tab. Note that you may need to reclone the repository on your local machine
-after doing this.
+GitHub repositories can be re-named at any time. To do this, go the "Settings" tab.
+
+> [!NOTE] 
+> You may need to re-clone the repository on your local machine or simply connect 
+your local repository to new url by `git remote set-url origin [NEW URL]`
 
 ### Cloning and Initialising Your Repository
 
