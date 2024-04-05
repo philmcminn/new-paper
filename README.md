@@ -152,6 +152,9 @@ pdflatex paper
 pdflatex paper
 ```
 
+NOTE: if youy have not got any references defined, `bibtex *.aux` will produce
+an error. So you can just run `pdflatex paper` in the first instance. 
+
 ## 5. Sections of the Paper and What Goes In Them
 
 Each .tex file in `new-paper` corresponds to part of the paper and includes
