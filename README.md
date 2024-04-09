@@ -28,7 +28,7 @@
   * [Numbers](#numbers)
   * [Further Writing Advice](#further-writing-advice)
   * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
-
+* [9. Bibliography Management](#9-bibliography-management)
 
 ## 1. Introduction
 
@@ -143,8 +143,8 @@ will need to run `pdflatex` as follows:
 pdflatex paper
 ```
 
-Later down the line (and not discussed further here) you will have BibTeX
-file(s) containing your references, and you'll need to run `pdflatex` a couple
+Later down the line you will have BibTeX
+file(s) containing your references (see section on [bibliography management](#9-bibliography-management)), and you'll need to run `pdflatex` a couple
 of times to resolve all of the references properly in the document:
 
 ```
@@ -396,3 +396,27 @@ finding things again should not be difficult – in fact, it should be very easy
 Furthermore, if you get really stuck, then it is not hard to use the "Find"
 feature of a good text editor, so long as you include all the relevant files in
 the scope of the search.
+
+## 9. Bibliography management
+
+You should use Bibtex for your bibliography. If you are using reference manager software like Zotero or Mendeley it's easy to export your library to `.bib` format. Once you already have bibliography you can uncomment the line in `paper.tex`.
+
+```tex
+\bibliography{bibtex/file_name}
+```
+
+I suggest keeping your bibliography in separate repository as maintaining separate bib files is a pain, especially if you're working on multiple papers simultaneously, the different copies can get out of sync. 
+
+To do this you can use [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
+
+```
+git submodule add [bib repo url] bibtex/your-bibliography
+```
+
+Having your bibliography set up you should be able to build your paper using:
+```
+pdflatex paper
+bibtex *.aux
+pdflatex paper
+pdflatex paper
+```
