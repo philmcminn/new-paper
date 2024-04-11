@@ -329,8 +329,7 @@ example:
   to "37 of the subjects...", or even better, just re-word the sentence so that
   the number doesn't appear at the start, as both look a little bit strange.
 
-* Numbers less than or equal to ten in the middle of a sentence (this sentence
-  is an example) – unless you're quoting actual data points from your
+* Numbers less than 10, unless you're quoting actual data points from your
   experiment.
 
 ### Further Writing Advice
