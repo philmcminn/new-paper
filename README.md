@@ -315,7 +315,7 @@ there are some words that are still used in every day British English that have
 disappeared from American English. These words sound odd and quaint to the
 American ear (so you may find them silently corrected in your paper, especially
 if working with an American collaborator). Top of the annoyance list appears to
-be the word "whilst". Use "while" instead. (It just sounds better anyway, IMO.)
+be the word "whilst". Use "while" instead. Check out [this page](https://en.wikipedia.org/wiki/Comparison_of_American_and_British_English#:~:text=Differences%20between%20the%20two%20include,in%20terms%20of%20mutual%20intelligibility.) for a more detailed comparison.  
 
 ### Numbers
 
