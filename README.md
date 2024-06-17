@@ -28,7 +28,7 @@
   * [Numbers](#numbers)
   * [Further Writing Advice](#further-writing-advice)
   * [What to Do If the Advice Conflicts](#what-to-do-if-the-advice-conflicts)
-
+* [9. Bibliography Management](#9-bibliography-management)
 
 ## 1. Introduction
 
@@ -88,9 +88,11 @@ For the same reasons as those [detailed
 later](#file-and-directory-naming--use-kebab-case), choose a name formatted in
 "kebab-case" (i.e., all lower case with hyphens as word separators).
 
-GitHub repositories can be re-named at any time. To do this, go the "Settings"
-tab. Note that you may need to reclone the repository on your local machine
-after doing this.
+GitHub repositories can be re-named at any time. To do this, go the "Settings" tab.
+
+> [!NOTE] 
+> You may need to re-clone the repository on your local machine or simply connect 
+your local repository to new url by `git remote set-url origin [NEW URL]`
 
 ### Cloning and Initialising Your Repository
 
@@ -141,8 +143,8 @@ will need to run `pdflatex` as follows:
 pdflatex paper
 ```
 
-Later down the line (and not discussed further here) you will have BibTeX
-file(s) containing your references, and you'll need to run `pdflatex` a couple
+Later down the line you will have BibTeX
+file(s) containing your references (see section on [bibliography management](#9-bibliography-management)), and you'll need to run `pdflatex` a couple
 of times to resolve all of the references properly in the document:
 
 ```
@@ -151,6 +153,9 @@ bibtex *.aux
 pdflatex paper
 pdflatex paper
 ```
+
+If you have not got any references defined, `bibtex *.aux` will produce
+an error. So you just need to run `pdflatex paper` in the first instance. 
 
 ## 5. Sections of the Paper and What Goes In Them
 
@@ -310,7 +315,8 @@ there are some words that are still used in every day British English that have
 disappeared from American English. These words sound odd and quaint to the
 American ear (so you may find them silently corrected in your paper, especially
 if working with an American collaborator). Top of the annoyance list appears to
-be the word "whilst". Use "while" instead. (It just sounds better anyway, IMO.)
+be the word "whilst". Use "while" instead. Check out [this page](https://en.wikipedia.org/wiki/Comparison_of_American_and_British_English) 
+for a more detailed comparison.  
 
 ### Numbers
 
@@ -324,9 +330,8 @@ example:
   to "37 of the subjects...", or even better, just re-word the sentence so that
   the number doesn't appear at the start, as both look a little bit strange.
 
-* Numbers less than or equal to ten in the middle of a sentence (this sentence
-  is an example) – unless you're quoting actual data points from your
-  experiment.
+* Numbers less than 10, in the middle of a sentence, unless you're quoting actual
+  data points from your experiment.
 
 ### Further Writing Advice
 
@@ -394,3 +399,27 @@ finding things again should not be difficult – in fact, it should be very easy
 Furthermore, if you get really stuck, then it is not hard to use the "Find"
 feature of a good text editor, so long as you include all the relevant files in
 the scope of the search.
+
+## 9. Bibliography management
+
+You should use Bibtex for your bibliography. If you are using reference manager software like Zotero or Mendeley it's easy to export your library to `.bib` format. Once you already have bibliography you can uncomment the line in `paper.tex`.
+
+```tex
+\bibliography{bibtex/file_name}
+```
+
+I suggest keeping your bibliography in separate repository as maintaining separate bib files is a pain, especially if you're working on multiple papers simultaneously, the different copies can get out of sync. 
+
+To do this you can use [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
+
+```
+git submodule add [bib repo url] bibtex/your-bibliography
+```
+
+Having your bibliography set up you should be able to build your paper using:
+```
+pdflatex paper
+bibtex *.aux
+pdflatex paper
+pdflatex paper
+```
