@@ -2,7 +2,11 @@
 \newcommand{\preabstract}{
 
     % Set the title
-    \title{\papertitle}
+    \ifcsname shortpapertitle\endcsname
+        \title[\shortpapertitle]{\papertitle}
+    \else
+        \title{\papertitle}
+    \fi
 
     % Define the author block
     \ifcsname doubleblind\endcsname
@@ -41,7 +45,7 @@
             \affiliation{
                 \institution{\lastauthoraffiliation}
                 \country{\lastauthorcountry}
-            }            
+            }
         \fi
     \fi
 
