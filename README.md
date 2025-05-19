@@ -343,6 +343,9 @@ See, the following links, for example:
   Documents](https://github.com/dspinellis/latex-advice), extensive guidance on
   LaTeX style, by Diomidis Spinellis.
 
+* [Draft Guidelines for My Students on Writing Software Engineering Research Papers](https://cragkhit.github.io/files/harman-writing-advice.pdf),
+  some excellent advice on writing papers by Mark Harman. 
+
 * [Things I Keep Repeating About
   Writing](https://clegoues.wordpress.com/2016/08/23/things-i-keep-repeating-about-writing/),
   an excellent blog post by Claire Le Goues that covers more aspects and tips
