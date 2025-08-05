@@ -54,3 +54,15 @@
 % won't work without \IEEEoverridecommandlockouts 
 % uncommented above
 % \IEEEaftertitletext{\vspace{-...}} 
+
+% Command to add IEEE notice as a footnote on the front page 
+% Use \ieeenotice in the appropriate place
+\makeatletter
+\newcommand{\ieeenotice}{%
+  \begingroup
+  \renewcommand{\thefootnote}{}% no number
+  \renewcommand{\@makefntext}[1]{\noindent ##1}% no indent
+  \footnote{\scriptsize For the purpose of open access, the author has applied a Creative Commons Attribution (CC BY) license to any Author Accepted Manuscript version arising.}%
+  \endgroup
+}
+\makeatother
