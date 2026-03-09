@@ -171,6 +171,8 @@ latexmk -pdf paper
 * `latexmk -pdf -pv paper` - build the paper and view in a PDF viewer.
 * `latexmk -pdf -pvc paper` - build, view, and continuously re-build if files change (add `view=none` to turn off launching of the viewer).
 
+For more options, see this [guide on `latexmk`](https://mgeier.github.io/latexmk.html).
+
 ## 5. Sections of the Paper and What Goes In Them
 
 Each .tex file in `new-paper` corresponds to part of the paper and includes
