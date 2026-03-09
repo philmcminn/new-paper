@@ -438,10 +438,6 @@ To do this you can use [git submodules](https://git-scm.com/book/en/v2/Git-Tools
 git submodule add [bib repo url] bibtex/your-bibliography
 ```
 
-Having your bibliography set up you should be able to build your paper using:
-```
-pdflatex paper
-bibtex *.aux
-pdflatex paper
-pdflatex paper
-```
+Having your bibliography set up you should be able to build your paper using the instructions 
+in [Section 4](#4-building-papers-at-the-terminal).
+
