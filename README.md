@@ -359,6 +359,9 @@ See, the following links, for example:
   Documents](https://github.com/dspinellis/latex-advice), extensive guidance on
   LaTeX style, by Diomidis Spinellis.
 
+* [Academic Writing in LaTeX: Best and Worst Practices](https://yegor256.github.io/latex-best-practices/main.pdf),
+  by Yegor Bugayenko
+
 * [Draft Guidelines for My Students on Writing Software Engineering Research Papers](https://cragkhit.github.io/files/harman-writing-advice.pdf),
   some excellent advice on writing papers by Mark Harman. 
 
